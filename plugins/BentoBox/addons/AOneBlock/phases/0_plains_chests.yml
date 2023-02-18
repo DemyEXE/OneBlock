@@ -1,0 +1,32 @@
+'0':
+  chests:
+    '1':
+      contents:
+        11:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2230
+          type: BOOK
+          amount: 3
+      rarity: COMMON
+    '2':
+      contents:
+        19:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2230
+          type: SOUL_SAND
+          amount: 4
+      rarity: COMMON
+    '3':
+      contents:
+        23:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2230
+          type: WATER_BUCKET
+      rarity: COMMON
+    '4':
+      contents:
+        5:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2230
+          type: LAVA_BUCKET
+      rarity: COMMON

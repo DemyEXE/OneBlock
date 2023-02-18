@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: ''
+ip-address: 127.0.0.1
 afk: false
 socialspy: false
 npc: false
@@ -16,14 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1675947415540
-  login: 0
+  logout: 1676640237610
+  login: 1676639895313
 money: '0'
 logoutlocation:
   world: 9da21240-a293-43bf-9e93-81ce8bb6138c
   world-name: world
-  x: 0.0
-  y: 106.0
-  z: 0.0
-  yaw: -17.399993896484375
-  pitch: 23.850008010864258
+  x: -33.847990930112545
+  y: 125.61300442280972
+  z: 21.77848611134574
+  yaw: -15.22174072265625
+  pitch: 72.37857055664062
+last-account-name: Demy___

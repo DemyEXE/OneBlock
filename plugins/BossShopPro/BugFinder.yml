@@ -1,3 +1,105 @@
 2023 09-02 at 01:55:42 PM (jeu:
   ): 'Vault was not found... You need it if you want to work with Permissions, Permission
     Groups or Money! Get it there: https://www.spigotmc.org/resources/vault.34315/'
+2023 10-02 at 09:49:39 AM (ven:
+  ): 'Vault was not found... You need it if you want to work with Permissions, Permission
+    Groups or Money! Get it there: https://www.spigotmc.org/resources/vault.34315/'
+2023 10-02 at 10:17:09 AM (ven:
+  ): 'Vault was not found... You need it if you want to work with Permissions, Permission
+    Groups or Money! Get it there: https://www.spigotmc.org/resources/vault.34315/'
+2023 10-02 at 10:18:44 AM (ven:
+  ): 'Vault was not found... You need it if you want to work with Permissions, Permission
+    Groups or Money! Get it there: https://www.spigotmc.org/resources/vault.34315/'
+2023 10-02 at 11:01:39 AM (Fri): 'Vault was not found... You need it if you want to
+  work with Permissions, Permission Groups or Money! Get it there: https://www.spigotmc.org/resources/vault.34315/'
+2023 10-02 at 11:28:45 AM (Fri): 'Vault was not found... You need it if you want to
+  work with Permissions, Permission Groups or Money! Get it there: https://www.spigotmc.org/resources/vault.34315/'
+2023 10-02 at 11:30:15 AM (Fri): |
+  Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+   in 'reader', line 8, column 3:
+        RottenFlesh3:
+        ^
+  expected <block end>, but found '<block mapping start>'
+   in 'reader', line 36, column 7:
+            2RottenFlesh3:
+            ^
+2023 10-02 at 11:31:00 AM (Fri): |
+  Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+   in 'reader', line 8, column 3:
+        RottenFlesh3:
+        ^
+  expected <block end>, but found '<block mapping start>'
+   in 'reader', line 36, column 5:
+          2RottenFlesh3:
+          ^
+2023 10-02 at 11:31:23 AM (Fri): 'Vault was not found... You need it if you want to
+  work with Permissions, Permission Groups or Money! Get it there: https://www.spigotmc.org/resources/vault.34315/'
+2023 10-02 at 11:36:09 AM (Fri): 'Vault was not found... You need it if you want to
+  work with Permissions, Permission Groups or Money! Get it there: https://www.spigotmc.org/resources/vault.34315/'
+2023 10-02 at 11:36:18 AM (Fri): 'Vault was not found... You need it if you want to
+  work with Permissions, Permission Groups or Money! Get it there: https://www.spigotmc.org/resources/vault.34315/'
+2023 10-02 at 11:38:06 AM (Fri): 'Vault was not found... You need it if you want to
+  work with Permissions, Permission Groups or Money! Get it there: https://www.spigotmc.org/resources/vault.34315/'
+2023 10-02 at 11:38:42 AM (Fri): 'Vault was not found... You need it if you want to
+  work with Permissions, Permission Groups or Money! Get it there: https://www.spigotmc.org/resources/vault.34315/'
+2023 10-02 at 11:39:48 AM (Fri): 'Vault was not found... You need it if you want to
+  work with Permissions, Permission Groups or Money! Get it there: https://www.spigotmc.org/resources/vault.34315/'
+2023 10-02 at 11:41:52 AM (Fri): 'Vault was not found... You need it if you want to
+  work with Permissions, Permission Groups or Money! Get it there: https://www.spigotmc.org/resources/vault.34315/'
+2023 10-02 at 04:29:54 PM (Fri): 'Vault was not found... You need it if you want to
+  work with Permissions, Permission Groups or Money! Get it there: https://www.spigotmc.org/resources/vault.34315/'
+2023 10-02 at 04:32:26 PM (Fri): 'Vault was not found... You need it if you want to
+  work with Permissions, Permission Groups or Money! Get it there: https://www.spigotmc.org/resources/vault.34315/'
+2023 11-02 at 10:42:57 AM (Sat): 'Vault was not found... You need it if you want to
+  work with Permissions, Permission Groups or Money! Get it there: https://www.spigotmc.org/resources/vault.34315/'
+2023 11-02 at 10:52:21 AM (Sat): 'Vault was not found... You need it if you want to
+  work with Permissions, Permission Groups or Money! Get it there: https://www.spigotmc.org/resources/vault.34315/'
+2023 11-02 at 10:52:35 AM (Sat): 'Vault was not found... You need it if you want to
+  work with Permissions, Permission Groups or Money! Get it there: https://www.spigotmc.org/resources/vault.34315/'
+2023 11-02 at 10:52:42 AM (Sat): 'Vault was not found... You need it if you want to
+  work with Permissions, Permission Groups or Money! Get it there: https://www.spigotmc.org/resources/vault.34315/'
+2023 11-02 at 10:52:49 AM (Sat): 'Vault was not found... You need it if you want to
+  work with Permissions, Permission Groups or Money! Get it there: https://www.spigotmc.org/resources/vault.34315/'
+2023 11-02 at 10:58:14 AM (Sat): Two Shops with the same Name (menu) are loaded. When
+  opening a Shop via Name, only one of this Shops will be opened!
+2023 11-02 at 10:59:29 AM (Sat): Two Shops with the same Name (menu) are loaded. When
+  opening a Shop via Name, only one of this Shops will be opened!
+2023 11-02 at 11:36:11 AM (Sat): Two Shops with the same Name (menu) are loaded. When
+  opening a Shop via Name, only one of this Shops will be opened!
+2023 11-02 at 11:44:32 AM (Sat): |
+  Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+   in 'reader', line 7, column 3:
+        1:
+        ^
+  expected <block end>, but found '<block mapping start>'
+   in 'reader', line 12, column 5:
+          RewardType: shop
+          ^
+2023 11-02 at 11:44:34 AM (Sat): |
+  Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+   in 'reader', line 7, column 3:
+        1:
+        ^
+  expected <block end>, but found '<block mapping start>'
+   in 'reader', line 12, column 5:
+          RewardType: shop
+          ^
+2023 11-02 at 11:44:43 AM (Sat): |
+  Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+   in 'reader', line 7, column 3:
+        1:
+        ^
+  expected <block end>, but found '<block mapping start>'
+   in 'reader', line 12, column 5:
+          RewardType: shop
+          ^
+2023 11-02 at 11:45:02 AM (Sat): |
+  Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+   in 'reader', line 7, column 3:
+        1:
+        ^
+  expected <block end>, but found '<block mapping start>'
+   in 'reader', line 12, column 5:
+          RewardType: shop
+          ^
+2023 12-02 at 12:16:39 PM (Sun): 'Mistake in Config: Unable to read itemdata ''enchant:UNBREAKING#3'

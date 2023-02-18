@@ -1,0 +1,538 @@
+# This file is not intended to be manually modified! If you want to manually edit this file anyways, ensure that the server is not running currently and that you have prepared a backup of this file.
+
+data-version: 3|2|3120
+'5':
+  uniqueId: b9ecf62c-dce8-48c6-817b-85beb609ace5
+  world: oneblock_world
+  x: 803
+  y: 81
+  z: 803
+  yaw: 0.0
+  type: admin
+  name: Fermier
+  object:
+    type: villager
+    baby: false
+    profession: NONE
+    villagerType: DESERT
+    villagerLevel: 1
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: WHEAT_SEEDS
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BRICK
+        amount: 8
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BEETROOT_SEEDS
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BRICK
+        amount: 8
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: CARROT
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BRICK
+        amount: 8
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: POTATO
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BRICK
+        amount: 8
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: MELON_SEEDS
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BRICK
+        amount: 8
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PUMPKIN_SEEDS
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BRICK
+        amount: 8
+    '7':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: SUGAR_CANE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BRICK
+        amount: 8
+    '8':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BAMBOO
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BRICK
+        amount: 8
+    '9':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: VINE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BRICK
+        amount: 8
+    '10':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COCOA_BEANS
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BRICK
+        amount: 8
+  snapshots: []
+'6':
+  uniqueId: 29ee7f4a-ae28-4963-9b6d-1a81c9ba87d9
+  world: oneblock_world
+  x: 802
+  y: 81
+  z: 816
+  yaw: 180.0
+  type: admin
+  name: Bucheron
+  object:
+    type: villager
+    baby: false
+    profession: NONE
+    villagerType: JUNGLE
+    villagerLevel: 1
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: OAK_SAPLING
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BRICK
+        amount: 8
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: SPRUCE_SAPLING
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BRICK
+        amount: 8
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BIRCH_SAPLING
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BRICK
+        amount: 8
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: JUNGLE_SAPLING
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BRICK
+        amount: 8
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: ACACIA_SAPLING
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BRICK
+        amount: 8
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: DARK_OAK_SAPLING
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BRICK
+        amount: 8
+    '7':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BROWN_MUSHROOM
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BRICK
+        amount: 8
+    '8':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RED_MUSHROOM
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BRICK
+        amount: 8
+    '9':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: CRIMSON_FUNGUS
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BRICK
+        amount: 8
+    '10':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: WARPED_FUNGUS
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BRICK
+        amount: 8
+  snapshots: []
+'7':
+  uniqueId: 2b4ba18f-3132-4384-94f3-8f8b3531fe94
+  world: oneblock_world
+  x: 791
+  y: 81
+  z: 808
+  yaw: 270.0
+  type: admin
+  name: Brocanteur du Dimanche
+  object:
+    type: villager
+    baby: false
+    profession: NONE
+    villagerType: SWAMP
+    villagerLevel: 1
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: DIRT
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BRICK
+        amount: 8
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: GLOWSTONE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BRICK
+        amount: 8
+  snapshots: []
+'9':
+  uniqueId: e618388b-9019-4d72-8337-cfcd0b29f340
+  world: oneblock_world
+  x: 821
+  y: 81
+  z: 809
+  yaw: 90.0
+  type: admin
+  name: Merlin le Fermier
+  object:
+    type: villager
+    baby: false
+    profession: NONE
+    villagerType: SNOW
+    villagerLevel: 1
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: WHEAT_SEEDS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Graine
+            de blé enchantée"}],"text":""}'
+          enchants:
+            ARROW_INFINITE: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: WHEAT_SEEDS
+        amount: 64
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: WHEAT
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Épi
+            de blé enchanté"}],"text":""}'
+          enchants:
+            ARROW_INFINITE: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: WHEAT
+        amount: 64
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BEETROOT_SEEDS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Graine
+            de betterave enchantée"}],"text":""}'
+          enchants:
+            ARROW_INFINITE: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BEETROOT_SEEDS
+        amount: 64
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BEETROOT
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Betterave
+            enchantée"}],"text":""}'
+          enchants:
+            ARROW_INFINITE: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BEETROOT
+        amount: 64
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: POTATO
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Patate
+            enchantée"}],"text":""}'
+          enchants:
+            ARROW_INFINITE: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: POTATO
+        amount: 64
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: CARROT
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Carotte
+            enchantée"}],"text":""}'
+          enchants:
+            ARROW_INFINITE: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: CARROT
+        amount: 64
+    '7':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: MELON
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Melon
+            enchanté"}],"text":""}'
+          enchants:
+            ARROW_INFINITE: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: MELON
+        amount: 64
+    '8':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: MELON_SLICE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Tranche
+            de pastèque enchantée"}],"text":""}'
+          enchants:
+            ARROW_INFINITE: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: MELON_SLICE
+        amount: 64
+    '9':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PUMPKIN
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Citrouille
+            enchantée"}],"text":""}'
+          enchants:
+            ARROW_INFINITE: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PUMPKIN
+        amount: 64
+    '10':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: SUGAR_CANE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Canne
+            à sucre enchantée"}],"text":""}'
+          enchants:
+            ARROW_INFINITE: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: SUGAR_CANE
+        amount: 64
+    '11':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BAMBOO
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Bambou
+            enchanté"}],"text":""}'
+          enchants:
+            ARROW_INFINITE: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BAMBOO
+        amount: 64
+    '12':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: VINE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Liane
+            enchantée"}],"text":""}'
+          enchants:
+            ARROW_INFINITE: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: VINE
+        amount: 64
+    '13':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COCOA_BEANS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Cacao
+            enchanté"}],"text":""}'
+          enchants:
+            ARROW_INFINITE: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COCOA_BEANS
+        amount: 64
+  snapshots: []

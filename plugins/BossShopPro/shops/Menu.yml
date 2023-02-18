@@ -86,7 +86,7 @@ shop:
     InventoryLocation: 10
   playerstats:
     MenuItem:
-    - 'lore:&2Money: %balance%#&9Points: %balancepoints%'
+    - 'lore:&2Money: balance#&9Points: balancepoints'
     - name:&6[tools] &c&l%displayname% &6[tools]
     - amount:1
     - type:PLAYER_HEAD
@@ -181,8 +181,8 @@ shop:
   pointshopmenu:
     MenuItem:
     - 'lore1:&8Here you can buy Points'
-    - 'lore3:&b&lYour Points: &r&9%balancepoints%'
-    - 'lore4:&b&lYour Money: &r&9%balance%'
+    - 'lore3:&b&lYour Points: &r&9balancepoints'
+    - 'lore4:&b&lYour Money: &r&9balance'
     - 'lore6:&cOnly for VIPs'
     - name:&6&lPointShop &a[v]
     - amount:1
