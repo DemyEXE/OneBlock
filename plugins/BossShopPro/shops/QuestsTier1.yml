@@ -472,7 +472,6 @@ shop:
     Price: 6
     RewardType: command
     Reward:
-    - lp user %player% permission set scoreboard.g2
     - lp user %player% parent add g2
     - lp user %player% parent remove g1
     - eco set %player% 0

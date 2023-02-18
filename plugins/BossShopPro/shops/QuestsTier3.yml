@@ -414,15 +414,18 @@ shop:
     - name:&x&0&1&d&7&5&8&lCarottes
     - lore1:&f
     - 'lore2:&aComment accomplir cette quête :'
-    - 'lore3:&6» &7Farmez &64096 Carottes.'
-    - 'lore4:&f'
-    - lore5:§6» Cliquez §7pour terminer cette quête.
+    - 'lore3:&6» &7Farmez &64096 Carottes &7et &6échangez-les'
+    - 'lore4:&6à Merlin &7pour obtenir &664 Carottes enchantées'
+    - 'lore5:&f'
+    - 'lore6:§6» Cliquez §7pour terminer cette quête.'
     - amount:1
     - type:CARROT
     PriceType: item
     Price:
     - - type:CARROT
-      - amount:4096
+      - enchantment:INFINITY#1
+      - hideflags:all
+      - amount:64
     RewardType: command
     Reward:
     - bs close %player%
