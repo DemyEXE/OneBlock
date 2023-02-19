@@ -199,187 +199,201 @@ shop:
     - name:&x&0&1&d&7&5&8&lBûches de bouleau
     - lore1:&f
     - 'lore2:&aComment accomplir cette quête :'
-    - 'lore3:&6» &7Farmez &6512 Bûches de bouleau.'
+    - 'lore3:&6» &7Farmez &62048 Tiges biscornues.'
     - 'lore4:&f'
     - lore5:§6» Cliquez §7pour terminer cette quête.
     - amount:1
-    - type:BIRCH_LOG
+    - type:CRIMSON_STEM
     PriceType: item
     Price:
-    - - type:BIRCH_LOG
-      - amount:512
+    - - type:CRIMSON_STEM
+      - enchantment:INFINITY#1
+      - hideflags:all
+      - amount:32
     RewardType: command
     Reward:
     - bs close %player%
-    - lp user %player% permission set quest.tier3.birchlog
-    - sendmessage %player% §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] §aTu viens d'accomplir la quête Bûches de bouleau !
+    - lp user %player% permission set quest.tier3.crimsonstem
+    - sendmessage %player% §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] §aTu viens d'accomplir la quête Tiges biscornues !
     - eco give %player% 1
-    Message: ''
-    ExtraPermission: ''
-    InventoryLocation: 10
-    Condition:
-    - type:permission
-    - match:group.g3
-  2OakLeavesTier3:
-    MenuItem:
-    - name:&x&0&1&d&7&5&8&lFeuilles de chêne
-    - lore1:&f
-    - 'lore2:&a» Vous avez déjà accompli cette quête !'
-    - amount:1
-    - type:OAK_LEAVES
-    - enchantment:UNBREAKING#3
-    - hideflags:all
-    PriceType: NOTHING
-    RewardType: NOTHING
-    Message: ''
-    ExtraPermission: ''
-    InventoryLocation: 9
-    Condition:
-    - type:permission
-    - match:quest.tier3.oakleaves
-  OakLeavesTier3:
-    MenuItem:
-    - name:&x&0&1&d&7&5&8&lFeuilles de chêne
-    - lore1:&f
-    - 'lore2:&aComment accomplir cette quête :'
-    - 'lore3:&6» &7Farmez &61024 Feuilles de chêne.'
-    - 'lore4:&f'
-    - lore5:§6» Cliquez §7pour terminer cette quête.
-    - amount:1
-    - type:OAK_LEAVES
-    PriceType: item
-    Price:
-    - - type:OAK_LEAVES
-      - amount:1024
-    RewardType: command
-    Reward:
-    - bs close %player%
-    - lp user %player% permission set quest.tier3.oakleaves
-    - sendmessage %player% §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] §aTu viens d'accomplir la quête Feuilles de chêne !
-    - eco give %player% 1
-    Message: ''
-    ExtraPermission: ''
-    InventoryLocation: 9
-    Condition:
-    - type:permission
-    - match:group.g3
-  2OakLogTier3:
-    MenuItem:
-    - name:&x&0&1&d&7&5&8&lBûches de chêne
-    - lore1:&f
-    - 'lore2:&a» Vous avez déjà accompli cette quête !'
-    - amount:1
-    - type:OAK_LOG
-    - enchantment:UNBREAKING#3
-    - hideflags:all
-    PriceType: NOTHING
-    RewardType: NOTHING
-    Message: ''
-    ExtraPermission: ''
-    InventoryLocation: 8
-    Condition:
-    - type:permission
-    - match:quest.tier3.oaklog
-  OakLogTier3:
-    MenuItem:
-    - name:&x&0&1&d&7&5&8&lBûches de chêne
-    - lore1:&f
-    - 'lore2:&aComment accomplir cette quête :'
-    - 'lore3:&6» &7Farmez &6512 Bûches de chêne.'
-    - 'lore4:&f'
-    - lore5:§6» Cliquez §7pour terminer cette quête.
-    - amount:1
-    - type:OAK_LOG
-    PriceType: item
-    Price:
-    - - type:OAK_LOG
-      - amount:512
-    RewardType: command
-    Reward:
-    - bs close %player%
-    - lp user %player% permission set quest.tier3.oaklog
-    - sendmessage %player% §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] §aTu viens d'accomplir la quête Bûches de chêne !
-    - eco give %player% 1
-    Message: ''
-    ExtraPermission: ''
-    InventoryLocation: 8
-    Condition:
-    - type:permission
-    - match:group.g3
-  2CobblestoneTier3:
-    MenuItem:
-    - name:&x&0&1&d&7&5&8&lBlocs de cobblestone
-    - lore1:&f
-    - 'lore2:&a» Vous avez déjà accompli cette quête !'
-    - amount:1
-    - type:COBBLESTONE
-    - enchantment:UNBREAKING#3
-    - hideflags:all
-    PriceType: NOTHING
-    RewardType: NOTHING
-    Message: ''
-    ExtraPermission: ''
-    InventoryLocation: 7
-    Condition:
-    - type:permission
-    - match:quest.tier3.cobblestone
-  CobblestoneTier3:
-    MenuItem:
-    - name:&x&0&1&d&7&5&8&lBlocs de cobblestone
-    - lore1:&f
-    - 'lore2:&aComment accomplir cette quête :'
-    - 'lore3:&6» &7Farmez &61024 Blocs de cobblestone.'
-    - 'lore4:&f'
-    - lore5:§6» Cliquez §7pour terminer cette quête.
-    - amount:1
-    - type:COBBLESTONE
-    PriceType: item
-    Price:
-    - - type:COBBLESTONE
-      - amount:1024
-    RewardType: command
-    Reward:
-    - bs close %player%
-    - lp user %player% permission set quest.tier3.cobblestone
-    - sendmessage %player% §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] §aTu viens d'accomplir la quête Blocs de cobblestone !
-    - eco give %player% 1
-    Message: ''
-    ExtraPermission: ''
-    InventoryLocation: 7
-    Condition:
-    - type:permission
-    - match:group.g3
-  2MelonTier3:
-    MenuItem:
-    - name:&x&0&1&d&7&5&8&lMelons
-    - lore1:&f
-    - 'lore2:&a» Vous avez déjà accompli cette quête !'
-    - amount:1
-    - type:MELON
-    - enchantment:UNBREAKING#3
-    - hideflags:all
-    PriceType: NOTHING
-    RewardType: NOTHING
     Message: ''
     ExtraPermission: ''
     InventoryLocation: 6
     Condition:
     - type:permission
-    - match:quest.tier3.melon
-  MelonTier3:
+    - match:group.g3
+  2StoneTier3:
     MenuItem:
-    - name:&x&0&1&d&7&5&8&lMelons
+    - name:&x&0&1&d&7&5&8&lRoches
+    - lore1:&f
+    - 'lore2:&a» Vous avez déjà accompli cette quête !'
+    - amount:1
+    - type:STONE
+    - enchantment:UNBREAKING#3
+    - hideflags:all
+    PriceType: NOTHING
+    RewardType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 5
+    Condition:
+    - type:permission
+    - match:quest.tier3.stone
+  StoneTier3:
+    MenuItem:
+    - name:&x&0&1&d&7&5&8&lRoches
     - lore1:&f
     - 'lore2:&aComment accomplir cette quête :'
-    - 'lore3:&6» &7Farmez &6512 Melons.'
-    - 'lore4:&f'
-    - lore5:§6» Cliquez §7pour terminer cette quête.
+    - 'lore3:&6» &7Farmez &62048 Roches &7et &6échangez-les'
+    - 'lore4:&6à Merlin &7pour obtenir &632 Roches enchantées'
+    - lore5:&f
+    - lore6:§6» Cliquez §7pour terminer cette quête.
     - amount:1
-    - type:MELON
+    - type:STONE
+    PriceType: item
+    Price:
+    - - type:STONE
+      - enchantment:INFINITY#1
+      - hideflags:all
+      - amount:32
+    RewardType: command
+    Reward:
+    - bs close %player%
+    - lp user %player% permission set quest.tier3.stone
+    - sendmessage %player% §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] §aTu viens d'accomplir la quête Roches !
+    - eco give %player% 1
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 5
+    Condition:
+    - type:permission
+    - match:group.g3
+  2PumpkinTier3:
+    MenuItem:
+    - name:&x&0&1&d&7&5&8&lCitrouilles
+    - lore1:&f
+    - 'lore2:&a» Vous avez déjà accompli cette quête !'
+    - amount:1
+    - type:PUMPKIN
+    - enchantment:UNBREAKING#3
+    - hideflags:all
+    PriceType: NOTHING
+    RewardType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 4
+    Condition:
+    - type:permission
+    - match:quest.tier3.pumpkin
+  PumpkinTier3:
+    MenuItem:
+    - name:&x&0&1&d&7&5&8&lCitrouilles
+    - lore1:&f
+    - 'lore2:&aComment accomplir cette quête :'
+    - 'lore3:&6» &7Farmez &62048 Citrouilles &7et &6échangez-les'
+    - 'lore4:&6à Merlin &7pour obtenir &632 Citrouilles enchantées&7.'
+    - lore5:&f
+    - lore6:§6» Cliquez §7pour terminer cette quête.
+    - amount:1
+    - type:PUMPKIN
+    PriceType: item
+    Price:
+    - - type:PUMPKIN
+      - enchantment:INFINITY#1
+      - hideflags:all
+      - amount:32
+    RewardType: command
+    Reward:
+    - bs close %player%
+    - lp user %player% permission set quest.tier3.pumpkin
+    - sendmessage %player% §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] §aTu viens d'accomplir la quête Citrouilles !
+    - eco give %player% 1
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 4
+    Condition:
+    - type:permission
+    - match:group.g3
+  2VinesTier3:
+    MenuItem:
+    - name:&x&0&1&d&7&5&8&lLianes
+    - lore1:&f
+    - 'lore2:&a» Vous avez déjà accompli cette quête !'
+    - amount:1
+    - type:VINE
+    - enchantment:UNBREAKING#3
+    - hideflags:all
+    PriceType: NOTHING
+    RewardType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3
+    Condition:
+    - type:permission
+    - match:quest.tier3.vines
+  VinesTier3:
+    MenuItem:
+    - name:&x&0&1&d&7&5&8&lLianes
+    - lore1:&f
+    - 'lore2:&aComment accomplir cette quête :'
+    - 'lore3:&6» &7Farmez &62048 Lianes &7et &6échangez-les'
+    - 'lore4:&6à Merlin &7pour obtenir &632 Lianes enchantées&7.'
+    - lore5:&f
+    - lore6:§6» Cliquez §7pour terminer cette quête.
+    - amount:1
+    - type:VINE
+    PriceType: item
+    Price:
+    - - type:VINE
+      - enchantment:INFINITY#1
+      - hideflags:all
+      - amount:32
+    RewardType: command
+    Reward:
+    - bs close %player%
+    - lp user %player% permission set quest.tier3.vines
+    - sendmessage %player% §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] §aTu viens d'accomplir la quête Lianes !
+    - eco give %player% 1
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3
+    Condition:
+    - type:permission
+    - match:group.g3
+  2PatatesTier3:
+    MenuItem:
+    - name:&x&0&1&d&7&5&8&lPatates
+    - lore1:&f
+    - 'lore2:&a» Vous avez déjà accompli cette quête !'
+    - amount:1
+    - type:POTATO
+    - enchantment:UNBREAKING#3
+    - hideflags:all
+    PriceType: NOTHING
+    RewardType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
+    Condition:
+    - type:permission
+    - match:quest.tier3.potato
+  PatateTier3:
+    MenuItem:
+    - name:&x&0&1&d&7&5&8&lPatates
+    - lore1:&f
+    - 'lore2:&aComment accomplir cette quête :'
+    - 'lore3:&6» &7Farmez &64096 Patates &7et &6échangez-les.'
+    - 'lore4:&6à Merlin &7pour obtenir &664 Patates enchantées&7.'
+    - lore5:&f
+    - lore6:§6» Cliquez §7pour terminer cette quête.
+    - amount:1
+    - type:POTATO
     PriceType: item
     Price:
     - - type:POTATO
-      - amount:4096
+      - enchantment:INFINITY#1
+      - hideflags:all
+      - amount:64
     RewardType: command
     Reward:
     - bs close %player%
@@ -388,7 +402,7 @@ shop:
     - eco give %player% 1
     Message: ''
     ExtraPermission: ''
-    InventoryLocation: 6
+    InventoryLocation: 2
     Condition:
     - type:permission
     - match:group.g3
