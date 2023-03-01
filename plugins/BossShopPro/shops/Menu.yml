@@ -1,322 +1,232 @@
 ShopName: Menu
-DisplayName: '&4&l&nBoss&1&l&nShop&0 &0&lMenu'
+DisplayName: '&x&a&1&f&f&f&4&lMenu OneBlock'
+Command: menu
 signs:
   text: '[Menu]'
   NeedPermissionToCreateSign: true
 shop:
-  glass1:
+  glass10:
     MenuItem:
-    - name:&2&l[radioactive]
+    - 'name: &2'
     - amount:1
-    - type:RED_STAINED_GLASS_PANE
-    RewardType: NOTHING
-    PriceType: NOTHING
-    Message: ''
-    ExtraPermission: ''
-    InventoryLocation: 1
-  glass2:
-    MenuItem:
-    - 'name: &2&l[radioactive]'
-    - amount:1
-    - type:BLUE_STAINED_GLASS_PANE
-    RewardType: NOTHING
-    PriceType: NOTHING
-    Message: ''
-    ExtraPermission: ''
-    InventoryLocation: 2
-  glass13:
-    MenuItem:
-    - name:&2&l[radioactive]
-    - amount:1
-    - type:BLUE_STAINED_GLASS_PANE
-    RewardType: NOTHING
-    PriceType: NOTHING
-    Message: ''
-    ExtraPermission: ''
-    InventoryLocation: 4
-  glass14:
-    MenuItem:
-    - name:&2&l[radioactive]
-    - amount:1
-    - type:BLUE_STAINED_GLASS_PANE
-    RewardType: NOTHING
-    PriceType: NOTHING
-    Message: ''
-    ExtraPermission: ''
-    InventoryLocation: 5
-  glass15:
-    MenuItem:
-    - name:&2&l[radioactive]
-    - amount:1
-    - type:BLUE_STAINED_GLASS_PANE
-    RewardType: NOTHING
-    PriceType: NOTHING
-    Message: ''
-    ExtraPermission: ''
-    InventoryLocation: 6
-  glass4:
-    MenuItem:
-    - name:&2&l[radioactive]
-    - amount:1
-    - type:BLUE_STAINED_GLASS_PANE
-    RewardType: NOTHING
-    PriceType: NOTHING
-    Message: ''
-    ExtraPermission: ''
-    InventoryLocation: 8
-  glass5:
-    MenuItem:
-    - name:&2&l[radioactive]
-    - amount:1
-    - type:RED_STAINED_GLASS_PANE
-    RewardType: NOTHING
-    PriceType: NOTHING
-    Message: ''
-    ExtraPermission: ''
-    InventoryLocation: 9
-  glass3:
-    MenuItem:
-    - name:&2&l[radioactive]
-    - amount:1
-    - type:BLUE_STAINED_GLASS_PANE
+    - type:LIGHT_BLUE_STAINED_GLASS_PANE
     RewardType: NOTHING
     PriceType: NOTHING
     Message: ''
     ExtraPermission: ''
     InventoryLocation: 10
-  playerstats:
+  glass11:
     MenuItem:
-    - 'lore:&2Money: balance#&9Points: balancepoints'
-    - name:&6[tools] &c&l%displayname% &6[tools]
+    - name:&2
     - amount:1
-    - type:PLAYER_HEAD
-    - playerhead:%name%
+    - type:LIGHT_BLUE_STAINED_GLASS_PANE
     RewardType: NOTHING
     PriceType: NOTHING
     Message: ''
     ExtraPermission: ''
-    InventoryLocation: 14
-  glass6:
+    InventoryLocation: 11
+  glass12:
     MenuItem:
-    - name:&2&l[radioactive]
+    - name:&2
     - amount:1
-    - type:BLUE_STAINED_GLASS_PANE
+    - type:LIGHT_BLUE_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 12
+  questtier5:
+    MenuItem:
+    - name:§x§8§9§c§c§4§5§lQuêtes
+    - lore2:§6» Cliquez §7pour accéder à vos quêtes.
+    - amount:1
+    - type:BOOK
+    RewardType: shop
+    Reward: QuestsTier5
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+    Condition:
+    - type:permission
+    - match:group.oneblock-g5
+  questtier4:
+    MenuItem:
+    - name:§x§8§9§c§c§4§5§lQuêtes
+    - lore2:§6» Cliquez §7pour accéder à vos quêtes.
+    - amount:1
+    - type:BOOK
+    RewardType: shop
+    Reward: QuestsTier4
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+    Condition:
+    - type:permission
+    - match:group.oneblock-g4
+  questtier3:
+    MenuItem:
+    - name:§x§8§9§c§c§4§5§lQuêtes
+    - lore2:§6» Cliquez §7pour accéder à vos quêtes.
+    - amount:1
+    - type:BOOK
+    RewardType: shop
+    Reward: QuestsTier3
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+    Condition:
+    - type:permission
+    - match:group.oneblock-g3
+  questtier2:
+    MenuItem:
+    - name:§x§8§9§c§c§4§5§lQuêtes
+    - lore2:§6» Cliquez §7pour accéder à vos quêtes.
+    - amount:1
+    - type:BOOK
+    RewardType: shop
+    Reward: QuestsTier2
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+    Condition:
+    - type:permission
+    - match:group.oneblock-g2
+  questtier1:
+    MenuItem:
+    - name:§x§8§9§c§c§4§5§lQuêtes
+    - lore2:§6» Cliquez §7pour accéder à vos quêtes.
+    - amount:1
+    - type:BOOK
+    RewardType: shop
+    Reward: QuestsTier1
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+    Condition:
+    - type:permission
+    - match:group.oneblock-g1
+  glass16:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:LIGHT_BLUE_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 16
+  glass17:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:LIGHT_BLUE_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 17
+  glass18:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:LIGHT_BLUE_STAINED_GLASS_PANE
     RewardType: NOTHING
     PriceType: NOTHING
     Message: ''
     ExtraPermission: ''
     InventoryLocation: 18
-  bungeecordserversmenu:
+  glass28:
     MenuItem:
-    - lore:&8Available Servers &7(Working with BungeeCord)
-    - name:&c&lServers &6[x]
+    - name:&2
     - amount:1
-    - type:COMPASS
-    RewardType: SHOP
-    Reward: BungeeCordServers
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
     PriceType: NOTHING
     Message: ''
     ExtraPermission: ''
-    InventoryLocation: 22
-  weekshopmenu:
+    InventoryLocation: 28
+  glass29:
     MenuItem:
-    - lore:&7Get cheap offers every day of the week.
-    - name:&e&l&nWeekShop
+    - name:&2
     - amount:1
-    - type:APPLE
-    RewardType: SHOP
-    Reward: WeekShop
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
     PriceType: NOTHING
     Message: ''
     ExtraPermission: ''
-    InventoryLocation: 23
-  lilypadserversmenu:
+    InventoryLocation: 29
+  glass30:
     MenuItem:
-    - lore:&8Available Servers &7(Working with LilyPad)
-    - name:&c&lServers &6[x]
+    - name:&2
     - amount:1
-    - type:WATER_LILY
-    RewardType: SHOP
-    Reward: lilypadservers
-    PriceType: NOTHING
-    Message: ''
-    ExtraPermission: ''
-    InventoryLocation: 24
-  gameshopmenu:
-    MenuItem:
-    - lore:&8The true and only &4&lGameShop&8!
-    - name:&4&l&nGameShop&0
-    - amount:1
-    - type:TNT
-    RewardType: SHOP
-    Reward: gameshop
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
     PriceType: NOTHING
     Message: ''
     ExtraPermission: ''
     InventoryLocation: 30
-  commandsmenu:
+  glass31:
     MenuItem:
-    - lore:&8Here you can buy commands
-    - name:&2&lCommands
+    - name:&2
     - amount:1
-    - type:COMMAND
-    RewardType: SHOP
-    Reward: commands
+    - type:BLACK_STAINED_GLASS_PANE
+    RewardType: NOTHING
     PriceType: NOTHING
     Message: ''
     ExtraPermission: ''
     InventoryLocation: 31
-  buyshopmenu:
+  glass32:
     MenuItem:
-    - lore:&8Here you can buy Items
-    - name:&9&lBuyShop &6[+]
+    - name:&2
     - amount:1
-    - type:GLASS
-    RewardType: SHOP
-    Reward: buyshop
+    - type:BLACK_STAINED_GLASS_PANE
+    RewardType: NOTHING
     PriceType: NOTHING
     Message: ''
     ExtraPermission: ''
     InventoryLocation: 32
-  pointshopmenu:
+  glass33:
     MenuItem:
-    - 'lore1:&8Here you can buy Points'
-    - 'lore3:&b&lYour Points: &r&9balancepoints'
-    - 'lore4:&b&lYour Money: &r&9balance'
-    - 'lore6:&cOnly for VIPs'
-    - name:&6&lPointShop &a[v]
+    - name:&2
     - amount:1
-    - type:DIAMOND
-    RewardType: SHOP
-    Reward: PointShop
+    - type:BLACK_STAINED_GLASS_PANE
+    RewardType: NOTHING
     PriceType: NOTHING
     Message: ''
-    ExtraPermission: Permission.Vip
+    ExtraPermission: ''
     InventoryLocation: 33
-  hugeshopmenu:
+  glass34:
     MenuItem:
-    - 'lore:'
-    - name:&6&l&nPages demonstration
+    - name:&2
     - amount:1
-    - type:CHEST
-    RewardType: SHOP
-    Reward: HugeShop
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
     PriceType: NOTHING
     Message: ''
     ExtraPermission: ''
     InventoryLocation: 34
-  playercommandsmenu:
+  glass35:
     MenuItem:
-    - lore:&8Commands to manage other players.
-    - name:&e&lPlayer Commands
-    - type:paper
-    ForceInput: PLAYER
-    ForceInputMessage: '&8Enter the name of a player you want to select.'
-    RewardType: SHOP
-    Reward: playercommandssecret
-    PriceType: NOTHING
-    Message: ''
-    ExtraPermission: ''
-    InventoryLocation: 40
-  skullsmenu:
-    MenuItem:
-    - lore:&8Here you can get Skulls
-    - name:&e&lSkulls
-    - type:PLAYER_HEAD
-    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjFkZDRmZTRhNDI5YWJkNjY1ZGZkYjNlMjEzMjFkNmVmYTZhNmI1ZTdiOTU2ZGI5YzVkNTljOWVmYWIyNSJ9fX0=
-    RewardType: SHOP
-    Reward: skulls
-    PriceType: NOTHING
-    Message: ''
-    ExtraPermission: ''
-    InventoryLocation: 42
-  glass7:
-    MenuItem:
-    - name:&2&l[radioactive]
+    - name:&2
     - amount:1
-    - type:BLUE_STAINED_GLASS_PANE
+    - type:GRAY_STAINED_GLASS_PANE
     RewardType: NOTHING
     PriceType: NOTHING
     Message: ''
     ExtraPermission: ''
-    InventoryLocation: 37
-  glass12:
-    MenuItem:
-    - name:&2&l[radioactive]
-    - amount:1
-    - type:BLUE_STAINED_GLASS_PANE
-    RewardType: NOTHING
-    PriceType: NOTHING
-    Message: ''
+    InventoryLocation: 35
+  Retour:
     ExtraPermission: ''
-    InventoryLocation: 45
-  glass8:
     MenuItem:
-    - name:&2&l[radioactive]
+    - name:§f§l✦ §c§lFermer §f§l✦
+    - type:BARRIER
     - amount:1
-    - type:RED_STAINED_GLASS_PANE
-    RewardType: NOTHING
-    PriceType: NOTHING
+    InventoryLocation: 36
     Message: ''
-    ExtraPermission: ''
-    InventoryLocation: 46
-  glass9:
-    MenuItem:
-    - name:&2&l[radioactive]
-    - amount:1
-    - type:BLUE_STAINED_GLASS_PANE
-    RewardType: NOTHING
-    PriceType: NOTHING
-    Message: ''
-    ExtraPermission: ''
-    InventoryLocation: 47
-  glass16:
-    MenuItem:
-    - name:&2&l[radioactive]
-    - amount:1
-    - type:BLUE_STAINED_GLASS_PANE
-    RewardType: NOTHING
-    PriceType: NOTHING
-    Message: ''
-    ExtraPermission: ''
-    InventoryLocation: 49
-  glass17:
-    MenuItem:
-    - name:&2&l[radioactive]
-    - amount:1
-    - type:BLUE_STAINED_GLASS_PANE
-    RewardType: NOTHING
-    PriceType: NOTHING
-    Message: ''
-    ExtraPermission: ''
-    InventoryLocation: 50
-  glass18:
-    MenuItem:
-    - name:&2&l[radioactive]
-    - amount:1
-    - type:BLUE_STAINED_GLASS_PANE
-    RewardType: NOTHING
-    PriceType: NOTHING
-    Message: ''
-    ExtraPermission: ''
-    InventoryLocation: 51
-  glass10:
-    MenuItem:
-    - name:&2&l[radioactive]
-    - amount:1
-    - type:BLUE_STAINED_GLASS_PANE
-    RewardType: NOTHING
-    PriceType: NOTHING
-    Message: ''
-    ExtraPermission: ''
-    InventoryLocation: 53
-  glass11:
-    MenuItem:
-    - name:&2&l[radioactive]
-    - amount:1
-    - type:RED_STAINED_GLASS_PANE
-    RewardType: NOTHING
-    PriceType: NOTHING
-    Message: ''
-    ExtraPermission: ''
-    InventoryLocation: 54
+    RewardType: command
+    Reward: bs close %player%

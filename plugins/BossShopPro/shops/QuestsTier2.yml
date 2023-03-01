@@ -39,15 +39,15 @@ shop:
     RewardType: command
     Reward:
     - bs close %player%
-    - lp user %player% permission set quest.tier2.gunpowder
+    - lp user %player% permission settemp quest.tier2.gunpowder true 30d server=BIG_EVENT
     - sendmessage %player% §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] §aTu viens d'accomplir la quête Poudres à canon !
-    - eco give %player% 1
+    - money give %player% 1
     Message: ''
     ExtraPermission: ''
     InventoryLocation: 9
     Condition:
     - type:permission
-    - match:group.g2
+    - match:group.oneblock-g2
   2RottenFleshTier2:
     MenuItem:
     - name:&x&0&1&d&7&5&8&lChairs putréfiées
@@ -82,15 +82,15 @@ shop:
     RewardType: command
     Reward:
     - bs close %player%
-    - lp user %player% permission set quest.tier2.rottenflesh
+    - lp user %player% permission settemp quest.tier2.rottenflesh true 30d server=BIG_EVENT
     - sendmessage %player% §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] §aTu viens d'accomplir la quête Chairs putréfiées !
-    - eco give %player% 1
+    - money give %player% 1
     Message: ''
     ExtraPermission: ''
     InventoryLocation: 8
     Condition:
     - type:permission
-    - match:group.g2
+    - match:group.oneblock-g2
   2BirchLeavesTier2:
     MenuItem:
     - name:&x&0&1&d&7&5&8&lFeuilles de bouleau
@@ -125,15 +125,15 @@ shop:
     RewardType: command
     Reward:
     - bs close %player%
-    - lp user %player% permission set quest.tier2.birchleaves
+    - lp user %player% permission settemp quest.tier2.birchleaves true 30d server=BIG_EVENT
     - sendmessage %player% §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] §aTu viens d'accomplir la quête Feuilles de bouleau !
-    - eco give %player% 1
+    - money give %player% 1
     Message: ''
     ExtraPermission: ''
     InventoryLocation: 7
     Condition:
     - type:permission
-    - match:group.g2
+    - match:group.oneblock-g2
   2BirchLogTier2:
     MenuItem:
     - name:&x&0&1&d&7&5&8&lBûches de bouleau
@@ -168,18 +168,18 @@ shop:
     RewardType: command
     Reward:
     - bs close %player%
-    - lp user %player% permission set quest.tier2.birchlog
+    - lp user %player% permission settemp quest.tier2.birchlog true 30d server=BIG_EVENT
     - sendmessage %player% §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] §aTu viens d'accomplir la quête Bûches de bouleau !
-    - eco give %player% 1
+    - money give %player% 1
     Message: ''
     ExtraPermission: ''
     InventoryLocation: 6
     Condition:
     - type:permission
-    - match:group.g2
-  2BoneTier2:
+    - match:group.oneblock-g2
+  2StoneTier2:
     MenuItem:
-    - name:&x&0&1&d&7&5&8&lPierres
+    - name:&x&0&1&d&7&5&8&lRoches
     - lore1:&f
     - 'lore2:&a» Vous avez déjà accompli cette quête !'
     - amount:1
@@ -194,16 +194,16 @@ shop:
     Condition:
     - type:permission
     - match:quest.tier2.stone
-  BoneTier2:
+  StoneTier2:
     MenuItem:
-    - name:&x&0&1&d&7&5&8&lPierres
+    - name:&x&0&1&d&7&5&8&lRoches
     - lore1:&f
     - 'lore2:&aComment accomplir cette quête :'
-    - 'lore3:&6» &7Farmez &61024 Pierres.'
+    - 'lore3:&6» &7Farmez &61024 Roches.'
     - 'lore4:&f'
     - lore5:§6» Cliquez §7pour terminer cette quête.
     - amount:1
-    - type:BONE
+    - type:STONE
     PriceType: item
     Price:
     - - type:STONE
@@ -211,18 +211,18 @@ shop:
     RewardType: command
     Reward:
     - bs close %player%
-    - lp user %player% permission set quest.tier2.stone
-    - sendmessage %player% §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] §aTu viens d'accomplir la quête Pierres !
-    - eco give %player% 1
+    - lp user %player% permission settemp quest.tier2.stone true 30d server=BIG_EVENT
+    - sendmessage %player% §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] §aTu viens d'accomplir la quête Roches !
+    - money give %player% 1
     Message: ''
     ExtraPermission: ''
     InventoryLocation: 5
     Condition:
     - type:permission
-    - match:group.g2
+    - match:group.oneblock-g2
   2CobblestoneTier2:
     MenuItem:
-    - name:&x&0&1&d&7&5&8&lBlocs de cobblestone
+    - name:&x&0&1&d&7&5&8&lPierres
     - lore1:&f
     - 'lore2:&a» Vous avez déjà accompli cette quête !'
     - amount:1
@@ -239,10 +239,10 @@ shop:
     - match:quest.tier2.cobblestone
   CobblestoneTier2:
     MenuItem:
-    - name:&x&0&1&d&7&5&8&lBlocs de cobblestone
+    - name:&x&0&1&d&7&5&8&lPierres
     - lore1:&f
     - 'lore2:&aComment accomplir cette quête :'
-    - 'lore3:&6» &7Farmez &61024 Blocs de cobblestone.'
+    - 'lore3:&6» &7Farmez &61024 Pierres.'
     - 'lore4:&f'
     - lore5:§6» Cliquez §7pour terminer cette quête.
     - amount:1
@@ -254,15 +254,15 @@ shop:
     RewardType: command
     Reward:
     - bs close %player%
-    - lp user %player% permission set quest.tier2.cobblestone
-    - sendmessage %player% §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] §aTu viens d'accomplir la quête Blocs de cobblestone !
-    - eco give %player% 1
+    - lp user %player% permission settemp quest.tier2.cobblestone true 30d server=BIG_EVENT
+    - sendmessage %player% §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] §aTu viens d'accomplir la quête Pierres !
+    - money give %player% 1
     Message: ''
     ExtraPermission: ''
     InventoryLocation: 4
     Condition:
     - type:permission
-    - match:group.g2
+    - match:group.oneblock-g2
   2BambooTier2:
     MenuItem:
     - name:&x&0&1&d&7&5&8&lBambous
@@ -297,15 +297,15 @@ shop:
     RewardType: command
     Reward:
     - bs close %player%
-    - lp user %player% permission set quest.tier2.bamboo
+    - lp user %player% permission settemp quest.tier2.bamboo true 30d server=BIG_EVENT
     - sendmessage %player% §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] §aTu viens d'accomplir la quête Bambous !
-    - eco give %player% 1
+    - money give %player% 1
     Message: ''
     ExtraPermission: ''
     InventoryLocation: 3
     Condition:
     - type:permission
-    - match:group.g2
+    - match:group.oneblock-g2
   2MelonTier2:
     MenuItem:
     - name:&x&0&1&d&7&5&8&lMelons
@@ -340,15 +340,15 @@ shop:
     RewardType: command
     Reward:
     - bs close %player%
-    - lp user %player% permission set quest.tier2.melon
+    - lp user %player% permission settemp quest.tier2.melon true 30d server=BIG_EVENT
     - sendmessage %player% §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] §aTu viens d'accomplir la quête Melons !
-    - eco give %player% 1
+    - money give %player% 1
     Message: ''
     ExtraPermission: ''
     InventoryLocation: 2
     Condition:
     - type:permission
-    - match:group.g2
+    - match:group.oneblock-g2
   2CarrotTier2:
     MenuItem:
     - name:&x&0&1&d&7&5&8&lCarottes
@@ -383,21 +383,21 @@ shop:
     RewardType: command
     Reward:
     - bs close %player%
-    - lp user %player% permission set quest.tier2.carrot
+    - lp user %player% permission settemp quest.tier2.carrot true 30d server=BIG_EVENT
     - sendmessage %player% §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] §aTu viens d'accomplir la quête Carottes !
-    - eco give %player% 1
+    - money give %player% 1
     Message: ''
     ExtraPermission: ''
     InventoryLocation: 1
     Condition:
     - type:permission
-    - match:group.g2
+    - match:group.oneblock-g2
 
   10:
     ExtraPermission: ''
     MenuItem:
     - 'name:&e&l&nINFORMATION'
-    - 'lore:#&e» &7Vous êtes actuellement au grade &x&9&3&9&5&c&c&lC&x&9&0&9&8&c&9&lo&x&8&e&9&b&c&6&ln&x&8&b&9&e&c&3&ln&x&8&9&a&1&c&0&la&x&8&6&a&4&b&e&li&x&8&3&a&6&b&b&ls&x&8&1&a&9&b&8&ls&x&7&e&a&c&b&5&le&x&7&c&a&f&b&2&lu&x&7&9&b&2&a&f&lr.'
+    - 'lore:#&e» &7Vous êtes actuellement au grade &x&9&3&9&5&c&c&lC&x&9&0&9&8&c&9&lo&x&8&e&9&b&c&6&ln&x&8&b&9&e&c&3&ln&x&8&9&a&1&c&0&la&x&8&6&a&4&b&e&li&x&8&3&a&6&b&b&ls&x&8&1&a&9&b&8&ls&x&7&e&a&c&b&5&le&x&7&c&a&f&b&2&lu&x&7&9&b&2&a&f&lr&7.'
     - id:PLAYER_HEAD
     - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDUyOGVkNDU4MDI0MDBmNDY1YjVjNGUzYTZiN2E5ZjJiNmE1YjNkNDc4YjZmZDg0OTI1Y2M1ZDk4ODM5MWM3ZCJ9fX0=
     - amount:1
@@ -407,7 +407,7 @@ shop:
     RewardType: unknown
     Condition:
     - type:permission
-    - match:group.g2
+    - match:group.oneblock-g2
   11:
     MenuItem:
     - name:&f
@@ -420,7 +420,7 @@ shop:
     InventoryLocation: 11
     Condition:
     - type:permission
-    - match:group.g2
+    - match:group.oneblock-g2
   12:
     MenuItem:
     - name:&f
@@ -433,7 +433,7 @@ shop:
     InventoryLocation: 12
     Condition:
     - type:permission
-    - match:group.g2
+    - match:group.oneblock-g2
   13:
     MenuItem:
     - name:&f
@@ -446,7 +446,7 @@ shop:
     InventoryLocation: 13
     Condition:
     - type:permission
-    - match:group.g2
+    - match:group.oneblock-g2
   15:
     MenuItem:
     - name:&f
@@ -459,7 +459,7 @@ shop:
     InventoryLocation: 15
     Condition:
     - type:permission
-    - match:group.g2
+    - match:group.oneblock-g2
   16:
     MenuItem:
     - name:&f
@@ -472,7 +472,7 @@ shop:
     InventoryLocation: 16
     Condition:
     - type:permission
-    - match:group.g2
+    - match:group.oneblock-g2
   17:
     MenuItem:
     - name:&f
@@ -485,7 +485,7 @@ shop:
     InventoryLocation: 17
     Condition:
     - type:permission
-    - match:group.g2
+    - match:group.oneblock-g2
     
   Retour:
     ExtraPermission: ''
@@ -499,27 +499,32 @@ shop:
     Reward: menu
     Condition:
     - type:permission
-    - match:group.g2
+    - match:group.oneblock-g2
   
   RankUP:
     MenuItem:
     - name:&f&l✦ Grade &7[&x&c&c&8&b&8&b&lI&x&c&a&8&e&8&9&ln&x&c&8&9&2&8&6&lt&x&c&5&9&5&8&4&le&x&c&3&9&8&8&1&lr&x&c&1&9&b&7&f&lm&x&b&f&9&f&7&d&lé&x&b&c&a&2&7&a&ld&x&b&a&a&5&7&8&li&x&b&8&a&8&7&5&la&x&b&6&a&c&7&3&li&x&b&3&a&f&7&0&lr&x&b&1&b&2&6&e&le&7] &f&l✦
-    - lore1:&6» &7Augmentation des quantités requises pour les quêtes actuelles
-    - lore2:&6» &7De nouveaux quêtes à compléter
-    - lore3:&6» &7Récompenses de passage
-    - 'lore4:&f&lRequis: &eCompléter 7 quêtes au choix &f(&e%vault_eco_balance_fixed%/7&f)'
+    - lore1:&f
+    - lore2:&6» &7Augmentation des quantités requises pour les quêtes actuelles
+    - lore3:&6» &7De nouveaux quêtes à compléter
+    - lore4:&6» &7Récompenses de passage
+    - lore5:&f
+    - 'lore6:&f&lRequis: &eCompléter 7 quêtes au choix &f(&e%vault_eco_balance_fixed%/7&f)'
     - amount:1
     - type:NETHER_STAR
     PriceType: money
     Price: 7
     RewardType: command
     Reward:
-    - lp user %player% parent add g3
-    - lp user %player% parent remove g2
-    - eco set %player% 0
+    - lp user %player% parent addtemp oneblock-g3 30d server=BIG_EVENT
+    - lp user %player% parent removetemp oneblock-g2 server=BIG_EVENT
+    - money set %player% 0
+    - sbc &f&l[&x&8&9&5&4&c&c&lA&x&8&a&6&3&c&8&lN&x&8&b&7&2&c&3&lN&x&8&c&8&1&b&f&lO&x&8&c&9&0&b&b&lN&x&8&d&9&f&b&6&lC&x&8&e&a&e&b&2&lE&f&l] &x&7&5&E&6&C&4&l%player% &f&lpasse le grade &x&c&c&8&b&8&b&lI&x&c&a&8&e&8&9&ln&x&c&8&9&2&8&6&lt&x&c&5&9&5&8&4&le&x&c&3&9&8&8&1&lr&x&c&1&9&b&7&f&lm&x&b&f&9&f&7&d&lé&x&b&c&a&2&7&a&ld&x&b&a&a&5&7&8&li&x&b&8&a&8&7&5&la&x&b&6&a&c&7&3&li&x&b&3&a&f&7&0&lr&x&b&1&b&2&6&e&le &f&l!
+    - lp user %player% permission settemp eventoneblock.reward.2 true 30d server=skyblock
+    - bs close %player%
     Message: ''
     ExtraPermission: ''
     InventoryLocation: 14
     Condition:
     - type:permission
-    - match:group.g2
+    - match:group.oneblock-g2

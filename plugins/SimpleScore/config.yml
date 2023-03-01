@@ -49,7 +49,10 @@ Scoreboards:
 Worlds:
   # World names are case-insensitive
   world: [ "base" ]
+  oneblock_world: [ "base" ]
+  oneblock_world_nether: [ "base" ]
+  oneblock_world_the_end: [ "base" ]
   # This will match all worlds starting with "world_" (e.g. world_nether, world_the_end)
-  world_\w*: [ "custom_time" ]
+  world_\w*: [ "base" ]
   # If player doesn't have permission to see the restricted scoreboard then it will display the example
   multiple: []

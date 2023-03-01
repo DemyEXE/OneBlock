@@ -117,6 +117,16 @@ data-version: 3|2|3120
         v: 3120
         type: BRICK
         amount: 8
+    '11':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: NETHER_WART
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BRICK
+        amount: 8
   snapshots: []
 '6':
   uniqueId: 29ee7f4a-ae28-4963-9b6d-1a81c9ba87d9
@@ -126,7 +136,7 @@ data-version: 3|2|3120
   z: 816
   yaw: 180.0
   type: admin
-  name: Bucheron
+  name: Bûcheron
   object:
     type: villager
     baby: false
@@ -256,6 +266,7 @@ data-version: 3|2|3120
         ==: org.bukkit.inventory.ItemStack
         v: 3120
         type: DIRT
+        amount: 4
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3120
@@ -265,7 +276,52 @@ data-version: 3|2|3120
       resultItem:
         ==: org.bukkit.inventory.ItemStack
         v: 3120
+        type: SOUL_SAND
+        amount: 4
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BRICK
+        amount: 8
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
         type: GLOWSTONE
+        amount: 4
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BRICK
+        amount: 8
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: REDSTONE
+        amount: 8
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BRICK
+        amount: 8
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: REPEATER
+        amount: 4
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BRICK
+        amount: 8
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COMPARATOR
+        amount: 2
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3120
@@ -280,7 +336,7 @@ data-version: 3|2|3120
   z: 809
   yaw: 90.0
   type: admin
-  name: Merlin le Fermier
+  name: Merlin l'Enchanteur
   object:
     type: villager
     baby: false
@@ -302,6 +358,12 @@ data-version: 3|2|3120
             ARROW_INFINITE: 1
           ItemFlags:
           - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          - HIDE_DESTROYS
+          - HIDE_PLACED_ON
+          - HIDE_POTION_EFFECTS
+          - HIDE_DYE
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3120
@@ -321,6 +383,12 @@ data-version: 3|2|3120
             ARROW_INFINITE: 1
           ItemFlags:
           - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          - HIDE_DESTROYS
+          - HIDE_PLACED_ON
+          - HIDE_POTION_EFFECTS
+          - HIDE_DYE
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3120
@@ -340,6 +408,12 @@ data-version: 3|2|3120
             ARROW_INFINITE: 1
           ItemFlags:
           - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          - HIDE_DESTROYS
+          - HIDE_PLACED_ON
+          - HIDE_POTION_EFFECTS
+          - HIDE_DYE
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3120
@@ -359,6 +433,12 @@ data-version: 3|2|3120
             ARROW_INFINITE: 1
           ItemFlags:
           - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          - HIDE_DESTROYS
+          - HIDE_PLACED_ON
+          - HIDE_POTION_EFFECTS
+          - HIDE_DYE
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3120
@@ -378,6 +458,12 @@ data-version: 3|2|3120
             ARROW_INFINITE: 1
           ItemFlags:
           - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          - HIDE_DESTROYS
+          - HIDE_PLACED_ON
+          - HIDE_POTION_EFFECTS
+          - HIDE_DYE
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3120
@@ -397,6 +483,12 @@ data-version: 3|2|3120
             ARROW_INFINITE: 1
           ItemFlags:
           - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          - HIDE_DESTROYS
+          - HIDE_PLACED_ON
+          - HIDE_POTION_EFFECTS
+          - HIDE_DYE
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3120
@@ -411,11 +503,17 @@ data-version: 3|2|3120
           ==: ItemMeta
           meta-type: UNSPECIFIC
           display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Melon
-            enchanté"}],"text":""}'
+            enchantée"}],"text":""}'
           enchants:
             ARROW_INFINITE: 1
           ItemFlags:
           - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          - HIDE_DESTROYS
+          - HIDE_PLACED_ON
+          - HIDE_POTION_EFFECTS
+          - HIDE_DYE
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3120
@@ -429,12 +527,18 @@ data-version: 3|2|3120
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
-          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Tranche
-            de pastèque enchantée"}],"text":""}'
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Tranches
+            de melon enchantée"}],"text":""}'
           enchants:
             ARROW_INFINITE: 1
           ItemFlags:
           - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          - HIDE_DESTROYS
+          - HIDE_PLACED_ON
+          - HIDE_POTION_EFFECTS
+          - HIDE_DYE
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3120
@@ -454,6 +558,12 @@ data-version: 3|2|3120
             ARROW_INFINITE: 1
           ItemFlags:
           - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          - HIDE_DESTROYS
+          - HIDE_PLACED_ON
+          - HIDE_POTION_EFFECTS
+          - HIDE_DYE
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3120
@@ -473,6 +583,12 @@ data-version: 3|2|3120
             ARROW_INFINITE: 1
           ItemFlags:
           - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          - HIDE_DESTROYS
+          - HIDE_PLACED_ON
+          - HIDE_POTION_EFFECTS
+          - HIDE_DYE
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3120
@@ -492,6 +608,12 @@ data-version: 3|2|3120
             ARROW_INFINITE: 1
           ItemFlags:
           - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          - HIDE_DESTROYS
+          - HIDE_PLACED_ON
+          - HIDE_POTION_EFFECTS
+          - HIDE_DYE
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3120
@@ -511,6 +633,12 @@ data-version: 3|2|3120
             ARROW_INFINITE: 1
           ItemFlags:
           - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          - HIDE_DESTROYS
+          - HIDE_PLACED_ON
+          - HIDE_POTION_EFFECTS
+          - HIDE_DYE
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3120
@@ -530,9 +658,490 @@ data-version: 3|2|3120
             ARROW_INFINITE: 1
           ItemFlags:
           - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          - HIDE_DESTROYS
+          - HIDE_PLACED_ON
+          - HIDE_POTION_EFFECTS
+          - HIDE_DYE
       item1:
         ==: org.bukkit.inventory.ItemStack
         v: 3120
         type: COCOA_BEANS
+        amount: 64
+    '14':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: NETHER_WART
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Verrue
+            du nether enchantée"}],"text":""}'
+          enchants:
+            ARROW_INFINITE: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          - HIDE_DESTROYS
+          - HIDE_PLACED_ON
+          - HIDE_POTION_EFFECTS
+          - HIDE_DYE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: NETHER_WART
+        amount: 64
+    '15':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: STONE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Roche
+            enchantée"}],"text":""}'
+          enchants:
+            ARROW_INFINITE: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          - HIDE_DESTROYS
+          - HIDE_PLACED_ON
+          - HIDE_POTION_EFFECTS
+          - HIDE_DYE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: STONE
+        amount: 64
+    '16':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: STONE_BRICKS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Pierre
+            taillée enchantée"}],"text":""}'
+          enchants:
+            ARROW_INFINITE: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          - HIDE_DESTROYS
+          - HIDE_PLACED_ON
+          - HIDE_POTION_EFFECTS
+          - HIDE_DYE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: STONE_BRICKS
+        amount: 64
+    '17':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: CRACKED_STONE_BRICKS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Pierre
+            taillée craquelée enchantée"}],"text":""}'
+          enchants:
+            ARROW_INFINITE: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          - HIDE_DESTROYS
+          - HIDE_PLACED_ON
+          - HIDE_POTION_EFFECTS
+          - HIDE_DYE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: CRACKED_STONE_BRICKS
+        amount: 64
+    '18':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: ICE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Glace
+            enchantée"}],"text":""}'
+          enchants:
+            ARROW_INFINITE: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          - HIDE_DESTROYS
+          - HIDE_PLACED_ON
+          - HIDE_POTION_EFFECTS
+          - HIDE_DYE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: ICE
+        amount: 64
+    '19':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: DARK_OAK_LOG
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Bois
+            de chêne noir enchanté"}],"text":""}'
+          enchants:
+            ARROW_INFINITE: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          - HIDE_DESTROYS
+          - HIDE_PLACED_ON
+          - HIDE_POTION_EFFECTS
+          - HIDE_DYE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: DARK_OAK_LOG
+        amount: 64
+    '20':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: DARK_OAK_LEAVES
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Feuilles
+            de chêne noir enchantées"}],"text":""}'
+          enchants:
+            ARROW_INFINITE: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          - HIDE_DESTROYS
+          - HIDE_PLACED_ON
+          - HIDE_POTION_EFFECTS
+          - HIDE_DYE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: DARK_OAK_LEAVES
+        amount: 64
+    '21':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: CRIMSON_STEM
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Tige
+            carmin enchantée"}],"text":""}'
+          enchants:
+            ARROW_INFINITE: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          - HIDE_DESTROYS
+          - HIDE_PLACED_ON
+          - HIDE_POTION_EFFECTS
+          - HIDE_DYE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: CRIMSON_STEM
+        amount: 64
+    '22':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: NETHER_WART_BLOCK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Bloc
+            de verrue du nether enchanté"}],"text":""}'
+          enchants:
+            ARROW_INFINITE: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          - HIDE_DESTROYS
+          - HIDE_PLACED_ON
+          - HIDE_POTION_EFFECTS
+          - HIDE_DYE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: NETHER_WART_BLOCK
+        amount: 64
+    '23':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: WARPED_STEM
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Tige
+            biscornue enchantée"}],"text":""}'
+          enchants:
+            ARROW_INFINITE: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          - HIDE_DESTROYS
+          - HIDE_PLACED_ON
+          - HIDE_POTION_EFFECTS
+          - HIDE_DYE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: WARPED_STEM
+        amount: 64
+    '24':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: WARPED_WART_BLOCK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Bloc
+            de verrue biscornue enchanté"}],"text":""}'
+          enchants:
+            ARROW_INFINITE: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          - HIDE_DESTROYS
+          - HIDE_PLACED_ON
+          - HIDE_POTION_EFFECTS
+          - HIDE_DYE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: WARPED_WART_BLOCK
+        amount: 64
+    '25':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RED_MUSHROOM_BLOCK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Bloc
+            de champignon rouge enchanté"}],"text":""}'
+          enchants:
+            ARROW_INFINITE: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          - HIDE_DESTROYS
+          - HIDE_PLACED_ON
+          - HIDE_POTION_EFFECTS
+          - HIDE_DYE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RED_MUSHROOM_BLOCK
+        amount: 64
+    '26':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BROWN_MUSHROOM_BLOCK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Bloc
+            de champignon marron enchanté"}],"text":""}'
+          enchants:
+            ARROW_INFINITE: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          - HIDE_DESTROYS
+          - HIDE_PLACED_ON
+          - HIDE_POTION_EFFECTS
+          - HIDE_DYE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BROWN_MUSHROOM_BLOCK
+        amount: 64
+    '27':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: MUSHROOM_STEM
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Tige
+            de champignon enchanté"}],"text":""}'
+          enchants:
+            ARROW_INFINITE: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          - HIDE_DESTROYS
+          - HIDE_PLACED_ON
+          - HIDE_POTION_EFFECTS
+          - HIDE_DYE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: MUSHROOM_STEM
+        amount: 64
+    '28':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: ROTTEN_FLESH
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Chair
+            putréfiée enchantée"}],"text":""}'
+          enchants:
+            ARROW_INFINITE: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          - HIDE_DESTROYS
+          - HIDE_PLACED_ON
+          - HIDE_POTION_EFFECTS
+          - HIDE_DYE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: ROTTEN_FLESH
+        amount: 64
+    '29':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BONE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Os
+            enchanté"}],"text":""}'
+          enchants:
+            ARROW_INFINITE: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          - HIDE_DESTROYS
+          - HIDE_PLACED_ON
+          - HIDE_POTION_EFFECTS
+          - HIDE_DYE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BONE
+        amount: 64
+    '30':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: ARROW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Flèche
+            enchantée"}],"text":""}'
+          enchants:
+            ARROW_INFINITE: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          - HIDE_DESTROYS
+          - HIDE_PLACED_ON
+          - HIDE_POTION_EFFECTS
+          - HIDE_DYE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: ARROW
+        amount: 64
+    '31':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: GUNPOWDER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Poudre
+            à canon enchantée"}],"text":""}'
+          enchants:
+            ARROW_INFINITE: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          - HIDE_DESTROYS
+          - HIDE_PLACED_ON
+          - HIDE_POTION_EFFECTS
+          - HIDE_DYE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: GUNPOWDER
+        amount: 64
+    '32':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: STRING
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Ficelle
+            enchantée"}],"text":""}'
+          enchants:
+            ARROW_INFINITE: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          - HIDE_DESTROYS
+          - HIDE_PLACED_ON
+          - HIDE_POTION_EFFECTS
+          - HIDE_DYE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: STRING
         amount: 64
   snapshots: []

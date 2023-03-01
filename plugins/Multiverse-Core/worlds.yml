@@ -1,15 +1,15 @@
 worlds:
-  world_the_end:
+  oneblock_world_the_end:
     ==: MVWorld
     hidden: 'false'
-    alias: world_the_end
+    alias: oneblock_world_the_end
     color: WHITE
     style: NORMAL
     pvp: 'true'
     scale: '16.0'
     respawnWorld: ''
     allowWeather: 'true'
-    difficulty: EASY
+    difficulty: NORMAL
     spawning:
       ==: MVSpawnSettings
       animals:
@@ -33,17 +33,17 @@ worlds:
     keepSpawnInMemory: 'true'
     spawnLocation:
       ==: MVSpawnLocation
-      x: 0.0
-      y: 61.0
-      z: 0.0
+      x: 8.0
+      y: 64.0
+      z: 8.0
       pitch: 0.0
       yaw: 0.0
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
     environment: THE_END
-    seed: '-1497781343238682924'
-    generator: 'null'
+    seed: '-5130826326366182757'
+    generator: BentoBox
     playerLimit: '-1'
     allowFlight: 'true'
   world:
@@ -93,17 +93,17 @@ worlds:
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
-  oneblock_world_the_end:
+  world_the_end:
     ==: MVWorld
     hidden: 'false'
-    alias: oneblock_world_the_end
+    alias: world_the_end
     color: WHITE
     style: NORMAL
     pvp: 'true'
     scale: '16.0'
     respawnWorld: ''
     allowWeather: 'true'
-    difficulty: NORMAL
+    difficulty: EASY
     spawning:
       ==: MVSpawnSettings
       animals:
@@ -127,17 +127,17 @@ worlds:
     keepSpawnInMemory: 'true'
     spawnLocation:
       ==: MVSpawnLocation
-      x: 8.0
-      y: 64.0
-      z: 8.0
+      x: 0.0
+      y: 61.0
+      z: 0.0
       pitch: 0.0
       yaw: 0.0
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
     environment: THE_END
-    seed: '-5130826326366182757'
-    generator: BentoBox
+    seed: '-1497781343238682924'
+    generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
   oneblock_world:

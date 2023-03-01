@@ -1,0 +1,639 @@
+ShopName: QuestsTier4
+DisplayName: '§x§8§9§c§c§4§5§lQuêtes'
+Command: oneblockquesttier4
+signs:
+  text: '[QuestsTier4]'
+  NeedPermissionToCreateSign: true
+shop:
+  2ArrowTier4:
+    MenuItem:
+    - name:&x&0&1&d&7&5&8&lFlèches
+    - lore1:&f
+    - 'lore2:&a» Vous avez déjà accompli cette quête !'
+    - amount:1
+    - type:ARROW
+    - enchantment:UNBREAKING#3
+    - hideflags:all
+    PriceType: NOTHING
+    RewardType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 11
+    Condition:
+    - type:permission
+    - match:quest.tier4.arrow
+  ArrowTier4:
+    MenuItem:
+    - name:&x&0&1&d&7&5&8&lFlèches
+    - lore1:&f
+    - 'lore2:&aComment accomplir cette quête :'
+    - 'lore3:&6» &7Farmez &64096 Flèches &7et &6échangez-les à Merlin &7pour obtenir &664 Flèches enchantées&7.'
+    - lore4:&f
+    - lore5:§6» Cliquez §7pour terminer cette quête.
+    - amount:1
+    - type:ARROW
+    PriceType: item
+    Price:
+    - - type:ARROW
+      - enchantment:INFINITY#1
+      - hideflags:all
+      - amount:64
+    RewardType: command
+    Reward:
+    - bs close %player%
+    - lp user %player% permission settemp quest.tier4.arrow true 30d server=BIG_EVENT
+    - sendmessage %player% §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] §aTu viens d'accomplir la quête Flèches !
+    - money give %player% 1
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 11
+    Condition:
+    - type:permission
+    - match:group.oneblock-g4
+  2BoneTier4:
+    MenuItem:
+    - name:&x&0&1&d&7&5&8&lOs
+    - lore1:&f
+    - 'lore2:&a» Vous avez déjà accompli cette quête !'
+    - amount:1
+    - type:BONE
+    - enchantment:UNBREAKING#3
+    - hideflags:all
+    PriceType: NOTHING
+    RewardType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 10
+    Condition:
+    - type:permission
+    - match:quest.tier4.bone
+  BoneTier4:
+    MenuItem:
+    - name:&x&0&1&d&7&5&8&lOs
+    - lore1:&f
+    - 'lore2:&aComment accomplir cette quête :'
+    - 'lore3:&6» &7Farmez &64096 Os &7et &6échangez-les à Merlin &7pour obtenir &664 Os enchantés&7.'
+    - lore4:&f
+    - lore5:§6» Cliquez §7pour terminer cette quête.
+    - amount:1
+    - type:BONE
+    PriceType: item
+    Price:
+    - - type:BONE
+      - enchantment:INFINITY#1
+      - hideflags:all
+      - amount:64
+    RewardType: command
+    Reward:
+    - bs close %player%
+    - lp user %player% permission settemp quest.tier4.bone true 30d server=BIG_EVENT
+    - sendmessage %player% §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] §aTu viens d'accomplir la quête Os !
+    - money give %player% 1
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 10
+    Condition:
+    - type:permission
+    - match:group.oneblock-g4
+  2WarpedWartBlockTier4:
+    MenuItem:
+    - name:&x&0&1&d&7&5&8&lBlocs de verrues biscornus
+    - lore1:&f
+    - 'lore2:&a» Vous avez déjà accompli cette quête !'
+    - amount:1
+    - type:WARPED_WART_BLOCK
+    - enchantment:UNBREAKING#3
+    - hideflags:all
+    PriceType: NOTHING
+    RewardType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 9
+    Condition:
+    - type:permission
+    - match:quest.tier4.warpedwartblock
+  WarpedWartBlockTier4:
+    MenuItem:
+    - name:&x&0&1&d&7&5&8&lBlocs de verrues biscornus
+    - lore1:&f
+    - 'lore2:&aComment accomplir cette quête :'
+    - 'lore3:&6» &7Farmez &68192 Blocs de verrues biscornus &7et &6échangez-les à Merlin &7pour obtenir &6128 Blocs de verrues biscornus enchantés&7.'
+    - lore4:&f
+    - lore5:§6» Cliquez §7pour terminer cette quête.
+    - amount:1
+    - type:WARPED_WART_BLOCK
+    PriceType: item
+    Price:
+    - - type:WARPED_WART_BLOCK
+      - enchantment:INFINITY#1
+      - hideflags:all
+      - amount:128
+    RewardType: command
+    Reward:
+    - bs close %player%
+    - lp user %player% permission settemp quest.tier4.warpedwartblock true 30d server=BIG_EVENT
+    - sendmessage %player% §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] §aTu viens d'accomplir la quête Blocs de verrues biscornus !
+    - money give %player% 1
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 9
+    Condition:
+    - type:permission
+    - match:group.oneblock-g4
+  2WarpedStemTier4:
+    MenuItem:
+    - name:&x&0&1&d&7&5&8&lTiges biscornues
+    - lore1:&f
+    - 'lore2:&a» Vous avez déjà accompli cette quête !'
+    - amount:1
+    - type:WARPED_STEM
+    - enchantment:UNBREAKING#3
+    - hideflags:all
+    PriceType: NOTHING
+    RewardType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 8
+    Condition:
+    - type:permission
+    - match:quest.tier4.warpedstem
+  WarpedStemTier4:
+    MenuItem:
+    - name:&x&0&1&d&7&5&8&lTiges biscornues
+    - lore1:&f
+    - 'lore2:&aComment accomplir cette quête :'
+    - 'lore3:&6» &7Farmez &64096 Tiges biscornues &7et &6échangez-les à Merlin &7pour obtenir &664 Tiges biscornues enchantées&7.'
+    - lore4:&f
+    - lore5:§6» Cliquez §7pour terminer cette quête.
+    - amount:1
+    - type:WARPED_STEM
+    PriceType: item
+    Price:
+    - - type:WARPED_STEM
+      - enchantment:INFINITY#1
+      - hideflags:all
+      - amount:64
+    RewardType: command
+    Reward:
+    - bs close %player%
+    - lp user %player% permission settemp quest.tier4.warpedstem true 30d server=BIG_EVENT
+    - sendmessage %player% §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] §aTu viens d'accomplir la quête Tiges biscornues !
+    - money give %player% 1
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 8
+    Condition:
+    - type:permission
+    - match:group.oneblock-g4
+  2DarkOakLeavesTier4:
+    MenuItem:
+    - name:&x&0&1&d&7&5&8&lFeuilles de chêne noir
+    - lore1:&f
+    - 'lore2:&a» Vous avez déjà accompli cette quête !'
+    - amount:1
+    - type:DARK_OAK_LEAVES
+    - enchantment:UNBREAKING#3
+    - hideflags:all
+    PriceType: NOTHING
+    RewardType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 7
+    Condition:
+    - type:permission
+    - match:quest.tier4.darkoakleaves
+  DarkOakLeavesTier4:
+    MenuItem:
+    - name:&x&0&1&d&7&5&8&lFeuilles de chêne noir
+    - lore1:&f
+    - 'lore2:&aComment accomplir cette quête :'
+    - 'lore3:&6» &7Farmez &68192 Feuilles de chêne noir &7et &6échangez-les à Merlin &7pour obtenir &6128 Feuilles de chêne noir enchantées&7.'
+    - lore4:&f
+    - lore5:§6» Cliquez §7pour terminer cette quête.
+    - amount:1
+    - type:DARK_OAK_LEAVES
+    PriceType: item
+    Price:
+    - - type:DARK_OAK_LEAVES
+      - enchantment:INFINITY#1
+      - hideflags:all
+      - amount:128
+    RewardType: command
+    Reward:
+    - bs close %player%
+    - lp user %player% permission settemp quest.tier4.darkoakleaves true 30d server=BIG_EVENT
+    - sendmessage %player% §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] §aTu viens d'accomplir la quête Feuilles de chêne noir !
+    - money give %player% 1
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 7
+    Condition:
+    - type:permission
+    - match:group.oneblock-g4
+  2DarkOakLogTier4:
+    MenuItem:
+    - name:&x&0&1&d&7&5&8&lBois de chêne noir
+    - lore1:&f
+    - 'lore2:&a» Vous avez déjà accompli cette quête !'
+    - amount:1
+    - type:DARK_OAK_LOG
+    - enchantment:UNBREAKING#3
+    - hideflags:all
+    PriceType: NOTHING
+    RewardType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 6
+    Condition:
+    - type:permission
+    - match:quest.tier4.darkoaklog
+  DarkOakLogTier4:
+    MenuItem:
+    - name:&x&0&1&d&7&5&8&lBois de chêne noir
+    - lore1:&f
+    - 'lore2:&aComment accomplir cette quête :'
+    - 'lore3:&6» &7Farmez &64096 Bois de chêne noir &7et &6échangez-les à Merlin &7pour obtenir &664 Bois de chêne noir enchantés&7.'
+    - lore4:&f
+    - lore5:§6» Cliquez §7pour terminer cette quête.
+    - amount:1
+    - type:DARK_OAK_LOG
+    PriceType: item
+    Price:
+    - - type:DARK_OAK_LOG
+      - enchantment:INFINITY#1
+      - hideflags:all
+      - amount:64
+    RewardType: command
+    Reward:
+    - bs close %player%
+    - lp user %player% permission settemp quest.tier4.darkoaklog true 30d server=BIG_EVENT
+    - sendmessage %player% §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] §aTu viens d'accomplir la quête Bois de chêne noir !
+    - money give %player% 1
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 6
+    Condition:
+    - type:permission
+    - match:group.oneblock-g4
+  2IceTier4:
+    MenuItem:
+    - name:&x&0&1&d&7&5&8&lGlaces
+    - lore1:&f
+    - 'lore2:&a» Vous avez déjà accompli cette quête !'
+    - amount:1
+    - type:ICE
+    - enchantment:UNBREAKING#3
+    - hideflags:all
+    PriceType: NOTHING
+    RewardType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 5
+    Condition:
+    - type:permission
+    - match:quest.tier4.ice
+  IceTier4:
+    MenuItem:
+    - name:&x&0&1&d&7&5&8&lGlaces
+    - lore1:&f
+    - 'lore2:&aComment accomplir cette quête :'
+    - 'lore3:&6» &7Farmez &68192 Glaces &7et &6échangez-les à Merlin &7pour obtenir &6128 Glaces enchantées&7.'
+    - lore4:&f
+    - lore5:§6» Cliquez §7pour terminer cette quête.
+    - amount:1
+    - type:ICE
+    PriceType: item
+    Price:
+    - - type:ICE
+      - enchantment:INFINITY#1
+      - hideflags:all
+      - amount:128
+    RewardType: command
+    Reward:
+    - bs close %player%
+    - lp user %player% permission settemp quest.tier4.ice true 30d server=BIG_EVENT
+    - sendmessage %player% §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] §aTu viens d'accomplir la quête Glaces !
+    - money give %player% 1
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 5
+    Condition:
+    - type:permission
+    - match:group.oneblock-g4
+  2StoneBricksTier4:
+    MenuItem:
+    - name:&x&0&1&d&7&5&8&lPierres taillées
+    - lore1:&f
+    - 'lore2:&a» Vous avez déjà accompli cette quête !'
+    - amount:1
+    - type:STONE_BRICKS
+    - enchantment:UNBREAKING#3
+    - hideflags:all
+    PriceType: NOTHING
+    RewardType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 4
+    Condition:
+    - type:permission
+    - match:quest.tier4.stonebricks
+  StoneBricksTier4:
+    MenuItem:
+    - name:&x&0&1&d&7&5&8&lPierres taillées
+    - lore1:&f
+    - 'lore2:&aComment accomplir cette quête :'
+    - 'lore3:&6» &7Farmez &68192 Pierres taillées &7et &6échangez-les à Merlin &7pour obtenir &6128 Pierres taillées enchantées&7.'
+    - lore4:&f
+    - lore5:§6» Cliquez §7pour terminer cette quête.
+    - amount:1
+    - type:STONE_BRICKS
+    PriceType: item
+    Price:
+    - - type:STONE_BRICKS
+      - enchantment:INFINITY#1
+      - hideflags:all
+      - amount:128
+    RewardType: command
+    Reward:
+    - bs close %player%
+    - lp user %player% permission settemp quest.tier4.stonebricks true 30d server=BIG_EVENT
+    - sendmessage %player% §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] §aTu viens d'accomplir la quête Pierres taillées !
+    - money give %player% 1
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 4
+    Condition:
+    - type:permission
+    - match:group.oneblock-g4
+  2PumpkinTier4:
+    MenuItem:
+    - name:&x&0&1&d&7&5&8&lCitrouilles
+    - lore1:&f
+    - 'lore2:&a» Vous avez déjà accompli cette quête !'
+    - amount:1
+    - type:PUMPKIN
+    - enchantment:UNBREAKING#3
+    - hideflags:all
+    PriceType: NOTHING
+    RewardType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3
+    Condition:
+    - type:permission
+    - match:quest.tier4.pumpkin
+  PumpkinTier4:
+    MenuItem:
+    - name:&x&0&1&d&7&5&8&lCitrouilles
+    - lore1:&f
+    - 'lore2:&aComment accomplir cette quête :'
+    - 'lore3:&6» &7Farmez &64096 Citrouilles &7et &6échangez-les à Merlin &7pour obtenir &664 Citrouilles enchantées&7.'
+    - lore4:&f
+    - lore5:§6» Cliquez §7pour terminer cette quête.
+    - amount:1
+    - type:PUMPKIN
+    PriceType: item
+    Price:
+    - - type:PUMPKIN
+      - enchantment:INFINITY#1
+      - hideflags:all
+      - amount:64
+    RewardType: command
+    Reward:
+    - bs close %player%
+    - lp user %player% permission settemp quest.tier4.pumpkin true 30d server=BIG_EVENT
+    - sendmessage %player% §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] §aTu viens d'accomplir la quête Citrouilles !
+    - money give %player% 1
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3
+    Condition:
+    - type:permission
+    - match:group.oneblock-g4
+  2MelonSliceTier4:
+    MenuItem:
+    - name:&x&0&1&d&7&5&8&lTranches de pastèque
+    - lore1:&f
+    - 'lore2:&a» Vous avez déjà accompli cette quête !'
+    - amount:1
+    - type:MELON_SLICE
+    - enchantment:UNBREAKING#3
+    - hideflags:all
+    PriceType: NOTHING
+    RewardType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
+    Condition:
+    - type:permission
+    - match:quest.tier4.melonslice
+  MelonSliceTier4:
+    MenuItem:
+    - name:&x&0&1&d&7&5&8&lTranches de pastèque
+    - lore1:&f
+    - 'lore2:&aComment accomplir cette quête :'
+    - 'lore3:&6» &7Farmez &616384 Tranches de pastèque &7et &6échangez-les à Merlin &7pour obtenir &6256 Tranches de pastèque enchantées&7.'
+    - lore4:&f
+    - lore5:§6» Cliquez §7pour terminer cette quête.
+    - amount:1
+    - type:MELON_SLICE
+    PriceType: item
+    Price:
+    - - type:MELON_SLICE
+      - enchantment:INFINITY#1
+      - hideflags:all
+      - amount:256
+    RewardType: command
+    Reward:
+    - bs close %player%
+    - lp user %player% permission settemp quest.tier4.melonslice true 30d server=BIG_EVENT
+    - sendmessage %player% §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] §aTu viens d'accomplir la quête Tranches de pastèque !
+    - money give %player% 1
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
+    Condition:
+    - type:permission
+    - match:group.oneblock-g4
+  2NetherWartTier4:
+    MenuItem:
+    - name:&x&0&1&d&7&5&8&lVerrues du nether
+    - lore1:&f
+    - 'lore2:&a» Vous avez déjà accompli cette quête !'
+    - amount:1
+    - type:NETHER_WART
+    - enchantment:UNBREAKING#3
+    - hideflags:all
+    PriceType: NOTHING
+    RewardType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 1
+    Condition:
+    - type:permission
+    - match:quest.tier4.netherwart
+  NetherWartTier4:
+    MenuItem:
+    - name:&x&0&1&d&7&5&8&lVerrues du nether
+    - lore1:&f
+    - 'lore2:&aComment accomplir cette quête :'
+    - 'lore3:&6» &7Farmez &616384 Verrues du nether &7et &6échangez-les à Merlin &7pour obtenir &6256 Verrues du nether enchantées&7.'
+    - 'lore4:&f'
+    - 'lore5:§6» Cliquez §7pour terminer cette quête.'
+    - amount:1
+    - type:NETHER_WART
+    PriceType: item
+    Price:
+    - - type:NETHER_WART
+      - name:&a&lVerrue du nether enchantée
+      - enchantment:INFINITY#1
+      - hideflags:all
+      - amount:256
+    RewardType: command
+    Reward:
+    - bs close %player%
+    - lp user %player% permission settemp quest.tier4.netherwart true 30d server=BIG_EVENT
+    - sendmessage %player% §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] §aTu viens d'accomplir la quête Verrues du nether !
+    - money give %player% 1
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 1
+    Condition:
+    - type:permission
+    - match:group.oneblock-g4
+
+  19:
+    ExtraPermission: ''
+    MenuItem:
+    - 'name:&e&l&nINFORMATION'
+    - 'lore:#&e» &7Vous êtes actuellement au grade &x&0&9&b&d&1&1&lQ&x&1&0&c&3&1&e&lu&x&1&6&c&9&2&a&la&x&1&d&c&f&3&7&ll&x&2&4&d&6&4&3&li&x&2&b&d&c&5&0&lf&x&3&1&e&2&5&c&li&x&3&8&e&8&6&9&lé&7.'
+    - id:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDUyOGVkNDU4MDI0MDBmNDY1YjVjNGUzYTZiN2E5ZjJiNmE1YjNkNDc4YjZmZDg0OTI1Y2M1ZDk4ODM5MWM3ZCJ9fX0=
+    - amount:1
+    InventoryLocation: 19
+    Message: ''
+    PriceType: nothing
+    RewardType: unknown
+    Condition:
+    - type:permission
+    - match:group.oneblock-g4
+  20:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    PriceType: NOTHING
+    RewardType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 20
+    Condition:
+    - type:permission
+    - match:group.oneblock-g4
+  21:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    PriceType: NOTHING
+    RewardType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 21
+    Condition:
+    - type:permission
+    - match:group.oneblock-g4
+  22:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:BLACK_STAINED_GLASS_PANE
+    PriceType: NOTHING
+    RewardType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 22
+    Condition:
+    - type:permission
+    - match:group.oneblock-g4
+  24:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:BLACK_STAINED_GLASS_PANE
+    PriceType: NOTHING
+    RewardType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 24
+    Condition:
+    - type:permission
+    - match:group.oneblock-g4
+  25:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    PriceType: NOTHING
+    RewardType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 25
+    Condition:
+    - type:permission
+    - match:group.oneblock-g4
+  26:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    PriceType: NOTHING
+    RewardType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 26
+    Condition:
+    - type:permission
+    - match:group.oneblock-g4
+    
+  Retour:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&f&l✦ &c&lRetour &f&l✦
+    - type:BARRIER
+    - amount:1
+    InventoryLocation: 27
+    Message: ''
+    RewardType: shop
+    Reward: menu
+    Condition:
+    - type:permission
+    - match:group.oneblock-g4
+  
+  RankUP:
+    MenuItem:
+    - name:&f&l✦ Grade &7[&x&f&f&a&7&5&1&lS&x&f&f&a&d&5&2&lp&x&f&f&b&3&5&3&lé&x&f&f&b&9&5&3&lc&x&f&f&b&f&5&4&li&x&f&f&c&5&5&5&la&x&f&f&c&a&5&6&ll&x&f&f&d&0&5&7&li&x&f&f&d&6&5&7&ls&x&f&f&d&c&5&8&lt&x&f&f&e&2&5&9&le&7] &f&l✦
+    - lore1:&f
+    - lore2:&6» &7Augmentation des quantités requises pour les quêtes actuelles
+    - lore3:&6» &7De nouveaux quêtes à compléter
+    - lore4:&6» &7Récompenses de passage
+    - lore5:&f
+    - 'lore6:&f&lRequis: &eCompléter 9 quêtes au choix &f(&e%vault_eco_balance_fixed%/9&f)'
+    - amount:1
+    - type:NETHER_STAR
+    PriceType: money
+    Price: 9
+    RewardType: command
+    Reward:
+    - lp user %player% parent addtemp oneblock-g5 30d server=BIG_EVENT
+    - lp user %player% parent removetemp oneblock-g4 server=BIG_EVENT
+    - money set %player% 0
+    - sbc &f&l[&x&8&9&5&4&c&c&lA&x&8&a&6&3&c&8&lN&x&8&b&7&2&c&3&lN&x&8&c&8&1&b&f&lO&x&8&c&9&0&b&b&lN&x&8&d&9&f&b&6&lC&x&8&e&a&e&b&2&lE&f&l] &x&7&5&E&6&C&4&l%player% &f&lpasse le grade &x&f&f&a&7&5&1&lS&x&f&f&a&d&5&2&lp&x&f&f&b&3&5&3&lé&x&f&f&b&9&5&3&lc&x&f&f&b&f&5&4&li&x&f&f&c&5&5&5&la&x&f&f&c&a&5&6&ll&x&f&f&d&0&5&7&li&x&f&f&d&6&5&7&ls&x&f&f&d&c&5&8&lt&x&f&f&e&2&5&9&le &f&l!
+    - lp user %player% permission settemp eventoneblock.reward.4 true 30d server=skyblock
+    - bs close %player%
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 23
+    Condition:
+    - type:permission
+    - match:group.oneblock-g4

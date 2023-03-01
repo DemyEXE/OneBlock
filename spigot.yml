@@ -143,6 +143,8 @@ world-settings:
       sprint-multiplier: 0.1
       other-multiplier: 0.0
     nerf-spawner-mobs: false
+  worldeditregentempworld:
+    verbose: false
 config-version: 12
 stats:
   disable-saving: false

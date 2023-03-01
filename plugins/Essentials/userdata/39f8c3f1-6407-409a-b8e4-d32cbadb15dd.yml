@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 90.7.150.179
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1677006200547
+  lastheal: 1676899311243
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1677006440674
+  login: 1677002395118
+money: '0'
+last-account-name: IamFanDeDemy
+logoutlocation:
+  world: 9da21240-a293-43bf-9e93-81ce8bb6138c
+  world-name: world
+  x: -3897.191664210282
+  y: 66.0
+  z: 3225.699999988079
+  yaw: 33.153343200683594
+  pitch: 15.599735260009766
+lastlocation:
+  world: 9da21240-a293-43bf-9e93-81ce8bb6138c
+  world-name: world
+  x: 4.437956505395388
+  y: 105.0
+  z: 2.1013585245842994
+  yaw: -58.04996109008789
+  pitch: 19.199975967407227

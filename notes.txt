@@ -6,6 +6,10 @@ Qualifié /mcolor &#09bd11&lQ&#10c31e&lu&#16c92a&la&#1dcf37&ll&#24d643&li&#2bdc5
 Spécialiste /mcolor &#ffa751&lS&#ffad52&lp&#ffb353&lé&#ffb953&lc&#ffbf54&li&#ffc555&la&#ffca56&ll&#ffd057&li&#ffd657&ls&#ffdc58&lt&#ffe259&le
 Suprême /mcolor &f&k&l|&#9e2330&lS&#ac2e38&lu&#b93841&lp&#c74349&lr&#d44d51&lê&#e2585a&lm&#ef6262&le&f&k&l|
 
+OneBlock : &#a1fff4&lO&#aeecec&ln&#bcdae4&le&#c9c7dc&lB&#d7b5d3&ll&#e4a2cb&lo&#f290c3&lc&#ff7dbb&lk
+ANNONCE : /sbc &f&l[&#8954cc&lA&#8a63c8&lN&#8b72c3&lN&#8c81bf&lO&#8c90bb&lN&#8d9fb6&lC&#8eaeb2&lE&f&l] #8954CC&l%player% &f&lpasse le grade &f&k&l|&#9e2330&lS&#ac2e38&lu&#b93841&lp&#c74349&lr&#d44d51&lê&#e2585a&lm&#ef6262&le&f&k&l|
+
+
 Moyenne/h blocs : 45000
 
 - FERMIER :
@@ -71,8 +75,8 @@ CITROUILLES x2048
 STONE x4096
 CRIMSON STEM x2048
 NETHER WART BLOCK x4096
-OS x2048
-FLECHES x2048
+OS x4096
+FLECHES x4096
 GUNPOWDER x2048
 --> 8 quêtes à valider, au choix
 
@@ -102,5 +106,5 @@ BROWN MUSHROOM BLOCK x8192
 MUSHROOM STEM x2048
 GUNPOWDER x8192
 STRING x8192
-SPIDER EYE x4096
+ROTTEN FLESH x8192
 --> 10 quêtes à valider, au choix

@@ -1,0 +1,363 @@
+ShopName: RewardOneBlock
+DisplayName: '&x&a&1&f&f&f&4&lRewards OneBlock'
+Command: oneblock rewards
+signs:
+  text: '[RewardOneBlock]'
+  NeedPermissionToCreateSign: true
+shop:
+  glass10:
+    MenuItem:
+    - 'name: &2'
+    - amount:1
+    - type:LIGHT_BLUE_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 10
+
+  claimedtier5:
+    MenuItem:
+    - name:&f&lGrade &f&k&l|&x&9&e&2&3&3&0&lS&x&a&c&2&e&3&8&lu&x&b&9&3&8&4&1&lp&x&c&7&4&3&4&9&lr&x&d&4&4&d&5&1&lê&x&e&2&5&8&5&a&lm&x&e&f&6&2&6&2&le&f&k&l|
+    - lore2:§c» Cette récompense a déjà été réclamée !
+    - amount:1
+    - type:LIME_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 16
+    Condition:
+    - type:permission
+    - match:eventoneblock.reward.5.claimed
+  rewardtier5:
+    MenuItem:
+    - name:&f&lGrade &f&k&l|&x&9&e&2&3&3&0&lS&x&a&c&2&e&3&8&lu&x&b&9&3&8&4&1&lp&x&c&7&4&3&4&9&lr&x&d&4&4&d&5&1&lê&x&e&2&5&8&5&a&lm&x&e&f&6&2&6&2&le&f&k&l|
+    - lore2:§6» Cliquez pour réclamer votre récompense !
+    - amount:1
+    - type:ORANGE_STAINED_GLASS_PANE
+    RewardType: command
+    Reward:
+    - lp user %player% permission unsettemp eventoneblock.reward.5 server=skyblock
+    - lp user %player% permission settemp eventoneblock.reward.5.claimed true 30d server=skyblock
+    - money give %player% 15000000
+    - ecoins give %player% 10000
+    - crates givekey Common %player% 15
+    - crates givekey Rare %player% 8
+    - crates givekey Epic %player% 5
+    - bs close %player%
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 16
+    Condition:
+    - type:permission
+    - match:eventoneblock.reward.5
+  lockedtier5:
+    MenuItem:
+    - name:&f&lGrade &c&l???
+    - lore2:§c» Vous n'avez pas atteint ce grade !
+    - amount:1
+    - type:RED_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 16
+
+  claimedtier4:
+    MenuItem:
+    - name:&f&lGrade &x&f&f&a&7&5&1&lS&x&f&f&a&d&5&2&lp&x&f&f&b&3&5&3&lé&x&f&f&b&9&5&3&lc&x&f&f&b&f&5&4&li&x&f&f&c&5&5&5&la&x&f&f&c&a&5&6&ll&x&f&f&d&0&5&7&li&x&f&f&d&6&5&7&ls&x&f&f&d&c&5&8&lt&x&f&f&e&2&5&9&le
+    - lore2:§c» Cette récompense a déjà été réclamée !
+    - amount:1
+    - type:LIME_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 15
+    Condition:
+    - type:permission
+    - match:eventoneblock.reward.4.claimed
+  rewardtier4:
+    MenuItem:
+    - name:&f&lGrade &x&f&f&a&7&5&1&lS&x&f&f&a&d&5&2&lp&x&f&f&b&3&5&3&lé&x&f&f&b&9&5&3&lc&x&f&f&b&f&5&4&li&x&f&f&c&5&5&5&la&x&f&f&c&a&5&6&ll&x&f&f&d&0&5&7&li&x&f&f&d&6&5&7&ls&x&f&f&d&c&5&8&lt&x&f&f&e&2&5&9&le
+    - lore2:§6» Cliquez pour réclamer votre récompense !
+    - amount:1
+    - type:ORANGE_STAINED_GLASS_PANE
+    RewardType: command
+    Reward:
+    - lp user %player% permission unsettemp eventoneblock.reward.4 server=skyblock
+    - lp user %player% permission settemp eventoneblock.reward.4.claimed true 30d server=skyblock
+    - money give %player% 12000000
+    - ecoins give %player% 8000
+    - crates givekey Common %player% 12
+    - crates givekey Rare %player% 6
+    - crates givekey Epic %player% 4
+    - bs close %player%
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 15
+    Condition:
+    - type:permission
+    - match:eventoneblock.reward.4
+  lockedtier4:
+    MenuItem:
+    - name:&f&lGrade &c&l???
+    - lore2:§c» Vous n'avez pas atteint ce grade !
+    - amount:1
+    - type:RED_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 15
+
+
+  claimedtier3:
+    MenuItem:
+    - name:&f&lGrade &x&0&9&b&d&1&1&lQ&x&1&0&c&3&1&e&lu&x&1&6&c&9&2&a&la&x&1&d&c&f&3&7&ll&x&2&4&d&6&4&3&li&x&2&b&d&c&5&0&lf&x&3&1&e&2&5&c&li&x&3&8&e&8&6&9&lé
+    - lore2:§c» Cette récompense a déjà été réclamée !
+    - amount:1
+    - type:LIME_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+    Condition:
+    - type:permission
+    - match:eventoneblock.reward.3.claimed
+  rewardtier3:
+    MenuItem:
+    - name:&f&lGrade &x&0&9&b&d&1&1&lQ&x&1&0&c&3&1&e&lu&x&1&6&c&9&2&a&la&x&1&d&c&f&3&7&ll&x&2&4&d&6&4&3&li&x&2&b&d&c&5&0&lf&x&3&1&e&2&5&c&li&x&3&8&e&8&6&9&lé
+    - lore2:§6» Cliquez pour réclamer votre récompense !
+    - amount:1
+    - type:ORANGE_STAINED_GLASS_PANE
+    RewardType: command
+    Reward:
+    - lp user %player% permission unsettemp eventoneblock.reward.3 server=skyblock
+    - lp user %player% permission settemp eventoneblock.reward.3.claimed true 30d server=skyblock
+    - money give %player% 10000000
+    - ecoins give %player% 6000
+    - crates givekey Common %player% 10
+    - crates givekey Rare %player% 5
+    - crates givekey Epic %player% 3
+    - bs close %player%
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+    Condition:
+    - type:permission
+    - match:eventoneblock.reward.3
+  lockedtier3:
+    MenuItem:
+    - name:&f&lGrade &c&l???
+    - lore2:§c» Vous n'avez pas atteint ce grade !
+    - amount:1
+    - type:RED_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+
+  claimedtier2:
+    MenuItem:
+    - name:&f&lGrade &x&c&c&8&b&8&b&lI&x&c&a&8&e&8&9&ln&x&c&8&9&2&8&6&lt&x&c&5&9&5&8&4&le&x&c&3&9&8&8&1&lr&x&c&1&9&b&7&f&lm&x&b&f&9&f&7&d&lé&x&b&c&a&2&7&a&ld&x&b&a&a&5&7&8&li&x&b&8&a&8&7&5&la&x&b&6&a&c&7&3&li&x&b&3&a&f&7&0&lr&x&b&1&b&2&6&e&le
+    - lore2:§c» Cette récompense a déjà été réclamée !
+    - amount:1
+    - type:LIME_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 13
+    Condition:
+    - type:permission
+    - match:eventoneblock.reward.2.claimed
+  rewardtier2:
+    MenuItem:
+    - name:&f&lGrade &x&c&c&8&b&8&b&lI&x&c&a&8&e&8&9&ln&x&c&8&9&2&8&6&lt&x&c&5&9&5&8&4&le&x&c&3&9&8&8&1&lr&x&c&1&9&b&7&f&lm&x&b&f&9&f&7&d&lé&x&b&c&a&2&7&a&ld&x&b&a&a&5&7&8&li&x&b&8&a&8&7&5&la&x&b&6&a&c&7&3&li&x&b&3&a&f&7&0&lr&x&b&1&b&2&6&e&le
+    - lore2:§6» Cliquez pour réclamer votre récompense !
+    - amount:1
+    - type:ORANGE_STAINED_GLASS_PANE
+    RewardType: command
+    Reward:
+    - lp user %player% permission unsettemp eventoneblock.reward.2 server=skyblock
+    - lp user %player% permission settemp eventoneblock.reward.2.claimed true 30d server=skyblock
+    - money give %player% 6000000
+    - ecoins give %player% 3000
+    - crates givekey Common %player% 8
+    - crates givekey Rare %player% 3
+    - crates givekey Epic %player% 1
+    - bs close %player%
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 13
+    Condition:
+    - type:permission
+    - match:eventoneblock.reward.2
+  lockedtier2:
+    MenuItem:
+    - name:&f&lGrade &c&l???
+    - lore2:§c» Vous n'avez pas atteint ce grade !
+    - amount:1
+    - type:RED_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 13
+
+  claimedtier1:
+    MenuItem:
+    - name:&f&lGrade &x&9&3&9&5&c&c&lC&x&9&0&9&8&c&9&lo&x&8&e&9&b&c&6&ln&x&8&b&9&e&c&3&ln&x&8&9&a&1&c&0&la&x&8&6&a&4&b&e&li&x&8&3&a&6&b&b&ls&x&8&1&a&9&b&8&ls&x&7&e&a&c&b&5&le&x&7&c&a&f&b&2&lu&x&7&9&b&2&a&f&lr
+    - lore2:§c» Cette récompense a déjà été réclamée !
+    - amount:1
+    - type:LIME_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 12
+    Condition:
+    - type:permission
+    - match:eventoneblock.reward.1.claimed
+  rewardtier1:
+    MenuItem:
+    - name:&f&lGrade &x&9&3&9&5&c&c&lC&x&9&0&9&8&c&9&lo&x&8&e&9&b&c&6&ln&x&8&b&9&e&c&3&ln&x&8&9&a&1&c&0&la&x&8&6&a&4&b&e&li&x&8&3&a&6&b&b&ls&x&8&1&a&9&b&8&ls&x&7&e&a&c&b&5&le&x&7&c&a&f&b&2&lu&x&7&9&b&2&a&f&lr
+    - lore2:§6» Cliquez pour réclamer votre récompense !
+    - amount:1
+    - type:ORANGE_STAINED_GLASS_PANE
+    RewardType: command
+    Reward:
+    - lp user %player% permission unsettemp eventoneblock.reward.1 server=skyblock
+    - lp user %player% permission settemp eventoneblock.reward.1.claimed true 30d server=skyblock
+    - money give %player% 2000000
+    - ecoins give %player% 1000
+    - crates givekey Common %player% 5
+    - crates givekey Rare %player% 2
+    - bs close %player%
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 12
+    Condition:
+    - type:permission
+    - match:eventoneblock.reward.1
+  lockedtier1:
+    MenuItem:
+    - name:&f&lGrade &c&l???
+    - lore2:§c» Vous n'avez pas atteint ce grade !
+    - amount:1
+    - type:RED_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 12
+
+  glass18:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:LIGHT_BLUE_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 18
+  glass28:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 28
+  glass29:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 29
+  glass30:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 30
+  glass31:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:BLACK_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 31
+  glass32:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:BLACK_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 32
+  glass33:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:BLACK_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 33
+  glass34:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 34
+  glass35:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 35
+  Retour:
+    ExtraPermission: ''
+    MenuItem:
+    - name:§f§l✦ §c§lFermer §f§l✦
+    - type:BARRIER
+    - amount:1
+    InventoryLocation: 36
+    Message: ''
+    RewardType: command
+    Reward: bs close %player%

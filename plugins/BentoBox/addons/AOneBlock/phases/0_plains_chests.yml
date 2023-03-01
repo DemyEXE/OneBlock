@@ -30,3 +30,20 @@
           v: 2230
           type: LAVA_BUCKET
       rarity: COMMON
+    '5':
+      contents:
+        5:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2230
+          type: DIAMOND
+          amount: 1
+          ==: org.bukkit.inventory.ItemStack
+        15:
+          v: 2230
+          type: IRON_ORE
+          amount: 3
+        24:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2230
+          type: GOLD_ORE
+          amount: 2
