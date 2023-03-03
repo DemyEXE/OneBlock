@@ -110,6 +110,17 @@ shop:
     Condition:
     - type:permission
     - match:group.oneblock-g1
+  NoStart:
+    MenuItem:
+    - name:§c§lEvent non commencé !
+    - lore2:§6» Faites /start pour démarrer.
+    - amount:1
+    - type:barrier
+    RewardType: nothing
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
   glass16:
     MenuItem:
     - name:&2

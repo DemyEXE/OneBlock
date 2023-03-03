@@ -40,7 +40,7 @@ shop:
     Reward:
     - bs close %player%
     - lp user %player% permission settemp quest.tier1.oakleaves true 30d server=BIG_EVENT
-    - sendmessage %player% §f§l[§x§8§9§c§c§4§5§lQ§x§9§0§d§0§6§a§lu§x§9§7§d§4§8§f§lê§x§9§d§d§9§b§5§lt§x§a§4§d§d§d§a§le§x§a§b§e§1§f§f§ls§f§l] §aTu viens d'accomplir la quête Feuilles de chêne !
+    - sbc §f§l[§x§8§9§c§c§4§5§lQ§x§9§0§d§0§6§a§lu§x§9§7§d§4§8§f§lê§x§9§d§d§9§b§5§lt§x§a§4§d§d§d§a§le§x§a§b§e§1§f§f§ls§f§l] &x&7&5&E&6&C&4&l%player% &fvient d'accomplir la quête §aFeuilles de chêne - Rang 1 &f!
     - money give %player% 1
     Message: ''
     ExtraPermission: ''
@@ -83,7 +83,7 @@ shop:
     Reward:
     - bs close %player%
     - lp user %player% permission settemp quest.tier1.oaklog true 30d server=BIG_EVENT
-    - sendmessage %player% §f§l[§x§8§9§c§c§4§5§lQ§x§9§0§d§0§6§a§lu§x§9§7§d§4§8§f§lê§x§9§d§d§9§b§5§lt§x§a§4§d§d§d§a§le§x§a§b§e§1§f§f§ls§f§l] §aTu viens d'accomplir la quête Bûches de chêne !
+    - sbc §f§l[§x§8§9§c§c§4§5§lQ§x§9§0§d§0§6§a§lu§x§9§7§d§4§8§f§lê§x§9§d§d§9§b§5§lt§x§a§4§d§d§d§a§le§x§a§b§e§1§f§f§ls§f§l] &x&7&5&E&6&C&4&l%player% &fvient d'accomplir la quête §aBûches de chêne - Rang 1 &f!
     - money give %player% 1
     Message: ''
     ExtraPermission: ''
@@ -127,7 +127,7 @@ shop:
     Reward:
     - bs close %player%
     - lp user %player% permission settemp quest.tier1.dirt true 30d server=BIG_EVENT
-    - sendmessage %player% §f§l[§x§8§9§c§c§4§5§lQ§x§9§0§d§0§6§a§lu§x§9§7§d§4§8§f§lê§x§9§d§d§9§b§5§lt§x§a§4§d§d§d§a§le§x§a§b§e§1§f§f§ls§f§l] §aTu viens d'accomplir la quête Blocs de terre !
+    - sbc §f§l[§x§8§9§c§c§4§5§lQ§x§9§0§d§0§6§a§lu§x§9§7§d§4§8§f§lê§x§9§d§d§9§b§5§lt§x§a§4§d§d§d§a§le§x§a§b§e§1§f§f§ls§f§l] &x&7&5&E&6&C&4&l%player% &fvient d'accomplir la quête §aBlocs de terre - Rang 1 &f!
     - money give %player% 1
     Message: ''
     ExtraPermission: ''
@@ -170,7 +170,7 @@ shop:
     Reward:
     - bs close %player%
     - lp user %player% permission settemp quest.tier1.cobblestone true 30d server=BIG_EVENT
-    - sendmessage %player% §f§l[§x§8§9§c§c§4§5§lQ§x§9§0§d§0§6§a§lu§x§9§7§d§4§8§f§lê§x§9§d§d§9§b§5§lt§x§a§4§d§d§d§a§le§x§a§b§e§1§f§f§ls§f§l] §aTu viens d'accomplir la quête Blocs de cobblestone !
+    - sbc §f§l[§x§8§9§c§c§4§5§lQ§x§9§0§d§0§6§a§lu§x§9§7§d§4§8§f§lê§x§9§d§d§9§b§5§lt§x§a§4§d§d§d§a§le§x§a§b§e§1§f§f§ls§f§l] &x&7&5&E&6&C&4&l%player% &fvient d'accomplir la quête §aBlocs de cobblestone - Rang 1 &f!
     - money give %player% 1
     Message: ''
     ExtraPermission: ''
@@ -213,7 +213,7 @@ shop:
     Reward:
     - bs close %player%
     - lp user %player% permission settemp quest.tier1.beetrootseeds true 30d server=BIG_EVENT
-    - sendmessage %player% §f§l[§x§8§9§c§c§4§5§lQ§x§9§0§d§0§6§a§lu§x§9§7§d§4§8§f§lê§x§9§d§d§9§b§5§lt§x§a§4§d§d§d§a§le§x§a§b§e§1§f§f§ls§f§l] §aTu viens d'accomplir la quête Graines de betteraves !
+    - sbc §f§l[§x§8§9§c§c§4§5§lQ§x§9§0§d§0§6§a§lu§x§9§7§d§4§8§f§lê§x§9§d§d§9§b§5§lt§x§a§4§d§d§d§a§le§x§a§b§e§1§f§f§ls§f§l] &x&7&5&E&6&C&4&l%player% &fvient d'accomplir la quête §aGraines de betteraves - Rang 1 &f!
     - money give %player% 1
     Message: ''
     ExtraPermission: ''
@@ -256,7 +256,7 @@ shop:
     Reward:
     - bs close %player%
     - lp user %player% permission settemp quest.tier1.beetroot true 30d server=BIG_EVENT
-    - sendmessage %player% §f§l[§x§8§9§c§c§4§5§lQ§x§9§0§d§0§6§a§lu§x§9§7§d§4§8§f§lê§x§9§d§d§9§b§5§lt§x§a§4§d§d§d§a§le§x§a§b§e§1§f§f§ls§f§l] §aTu viens d'accomplir la quête Betteraves !
+    - sbc §f§l[§x§8§9§c§c§4§5§lQ§x§9§0§d§0§6§a§lu§x§9§7§d§4§8§f§lê§x§9§d§d§9§b§5§lt§x§a§4§d§d§d§a§le§x§a§b§e§1§f§f§ls§f§l] &x&7&5&E&6&C&4&l%player% &fvient d'accomplir la quête §aBetteraves - Rang 1 &f!
     - money give %player% 1
     Message: ''
     ExtraPermission: ''
@@ -299,7 +299,7 @@ shop:
     Reward:
     - bs close %player%
     - lp user %player% permission settemp quest.tier1.wheatseeds true 30d server=BIG_EVENT
-    - sendmessage %player% §f§l[§x§8§9§c§c§4§5§lQ§x§9§0§d§0§6§a§lu§x§9§7§d§4§8§f§lê§x§9§d§d§9§b§5§lt§x§a§4§d§d§d§a§le§x§a§b§e§1§f§f§ls§f§l] §aTu viens d'accomplir la quête Graines de blé !
+    - sbc §f§l[§x§8§9§c§c§4§5§lQ§x§9§0§d§0§6§a§lu§x§9§7§d§4§8§f§lê§x§9§d§d§9§b§5§lt§x§a§4§d§d§d§a§le§x§a§b§e§1§f§f§ls§f§l] &x&7&5&E&6&C&4&l%player% &fvient d'accomplir la quête §aGraines de blé - Rang 1 &f!
     - money give %player% 1
     Message: ''
     ExtraPermission: ''
@@ -342,7 +342,7 @@ shop:
     Reward:
     - bs close %player%
     - lp user %player% permission settemp quest.tier1.wheat true 30d server=BIG_EVENT
-    - sendmessage %player% §f§l[§x§8§9§c§c§4§5§lQ§x§9§0§d§0§6§a§lu§x§9§7§d§4§8§f§lê§x§9§d§d§9§b§5§lt§x§a§4§d§d§d§a§le§x§a§b§e§1§f§f§ls§f§l] §aTu viens d'accomplir la quête Épis de blé !
+    - sbc §f§l[§x§8§9§c§c§4§5§lQ§x§9§0§d§0§6§a§lu§x§9§7§d§4§8§f§lê§x§9§d§d§9§b§5§lt§x§a§4§d§d§d§a§le§x§a§b§e§1§f§f§ls§f§l] &x&7&5&E&6&C&4&l%player% &fvient d'accomplir la quête §aÉpis de blé - Rang 1 &f!
     - money give %player% 1
     Message: ''
     ExtraPermission: ''

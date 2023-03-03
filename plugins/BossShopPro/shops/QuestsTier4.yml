@@ -42,7 +42,7 @@ shop:
     Reward:
     - bs close %player%
     - lp user %player% permission settemp quest.tier4.arrow true 30d server=BIG_EVENT
-    - sendmessage %player% §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] §aTu viens d'accomplir la quête Flèches !
+    - sbc §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] &x&7&5&E&6&C&4&l%player% &fvient d'accomplir la quête &aFlèches - Rang 3 &f!
     - money give %player% 1
     Message: ''
     ExtraPermission: ''
@@ -87,7 +87,7 @@ shop:
     Reward:
     - bs close %player%
     - lp user %player% permission settemp quest.tier4.bone true 30d server=BIG_EVENT
-    - sendmessage %player% §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] §aTu viens d'accomplir la quête Os !
+    - sbc §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] &x&7&5&E&6&C&4&l%player% &fvient d'accomplir la quête &aOs - Rang 3 &f!
     - money give %player% 1
     Message: ''
     ExtraPermission: ''
@@ -132,7 +132,7 @@ shop:
     Reward:
     - bs close %player%
     - lp user %player% permission settemp quest.tier4.warpedwartblock true 30d server=BIG_EVENT
-    - sendmessage %player% §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] §aTu viens d'accomplir la quête Blocs de verrues biscornus !
+    - sbc §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] &x&7&5&E&6&C&4&l%player% &fvient d'accomplir la quête &aBlocs de verrues biscornus - Rang 3 &f!
     - money give %player% 1
     Message: ''
     ExtraPermission: ''
@@ -177,7 +177,7 @@ shop:
     Reward:
     - bs close %player%
     - lp user %player% permission settemp quest.tier4.warpedstem true 30d server=BIG_EVENT
-    - sendmessage %player% §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] §aTu viens d'accomplir la quête Tiges biscornues !
+    - sbc §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] &x&7&5&E&6&C&4&l%player% &fvient d'accomplir la quête &aTiges biscornues - Rang 3 &f!
     - money give %player% 1
     Message: ''
     ExtraPermission: ''
@@ -222,7 +222,7 @@ shop:
     Reward:
     - bs close %player%
     - lp user %player% permission settemp quest.tier4.darkoakleaves true 30d server=BIG_EVENT
-    - sendmessage %player% §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] §aTu viens d'accomplir la quête Feuilles de chêne noir !
+    - sbc §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] &x&7&5&E&6&C&4&l%player% &fvient d'accomplir la quête &aFeuilles de chêne noir - Rang 3 &f!
     - money give %player% 1
     Message: ''
     ExtraPermission: ''
@@ -267,7 +267,7 @@ shop:
     Reward:
     - bs close %player%
     - lp user %player% permission settemp quest.tier4.darkoaklog true 30d server=BIG_EVENT
-    - sendmessage %player% §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] §aTu viens d'accomplir la quête Bois de chêne noir !
+    - sbc §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] &x&7&5&E&6&C&4&l%player% &fvient d'accomplir la quête &aBois de chêne noir - Rang 3 &f!
     - money give %player% 1
     Message: ''
     ExtraPermission: ''
@@ -275,13 +275,13 @@ shop:
     Condition:
     - type:permission
     - match:group.oneblock-g4
-  2IceTier4:
+  2CobblestoneTier4:
     MenuItem:
-    - name:&x&0&1&d&7&5&8&lGlaces
+    - name:&x&0&1&d&7&5&8&lPierres
     - lore1:&f
     - 'lore2:&a» Vous avez déjà accompli cette quête !'
     - amount:1
-    - type:ICE
+    - type:COBBLESTONE
     - enchantment:UNBREAKING#3
     - hideflags:all
     PriceType: NOTHING
@@ -291,28 +291,28 @@ shop:
     InventoryLocation: 5
     Condition:
     - type:permission
-    - match:quest.tier4.ice
-  IceTier4:
+    - match:quest.tier4.cobblestone
+  CobblestoneTier4:
     MenuItem:
-    - name:&x&0&1&d&7&5&8&lGlaces
+    - name:&x&0&1&d&7&5&8&lPierres
     - lore1:&f
     - 'lore2:&aComment accomplir cette quête :'
-    - 'lore3:&6» &7Farmez &68192 Glaces &7et &6échangez-les à Merlin &7pour obtenir &6128 Glaces enchantées&7.'
+    - 'lore3:&6» &7Farmez &68192 Pierres &7et &6échangez-les à Merlin &7pour obtenir &6128 Pierres enchantées&7.'
     - lore4:&f
     - lore5:§6» Cliquez §7pour terminer cette quête.
     - amount:1
-    - type:ICE
+    - type:COBBLESTONE
     PriceType: item
     Price:
-    - - type:ICE
+    - - type:COBBLESTONE
       - enchantment:INFINITY#1
       - hideflags:all
       - amount:128
     RewardType: command
     Reward:
     - bs close %player%
-    - lp user %player% permission settemp quest.tier4.ice true 30d server=BIG_EVENT
-    - sendmessage %player% §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] §aTu viens d'accomplir la quête Glaces !
+    - lp user %player% permission settemp quest.tier4.cobblestone true 30d server=BIG_EVENT
+    - sbc §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] &x&7&5&E&6&C&4&l%player% &fvient d'accomplir la quête &aPierres - Rang 3 &f!
     - money give %player% 1
     Message: ''
     ExtraPermission: ''
@@ -357,7 +357,7 @@ shop:
     Reward:
     - bs close %player%
     - lp user %player% permission settemp quest.tier4.stonebricks true 30d server=BIG_EVENT
-    - sendmessage %player% §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] §aTu viens d'accomplir la quête Pierres taillées !
+    - sbc §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] &x&7&5&E&6&C&4&l%player% &fvient d'accomplir la quête &aPierres taillées - Rang 3 &f!
     - money give %player% 1
     Message: ''
     ExtraPermission: ''
@@ -402,7 +402,7 @@ shop:
     Reward:
     - bs close %player%
     - lp user %player% permission settemp quest.tier4.pumpkin true 30d server=BIG_EVENT
-    - sendmessage %player% §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] §aTu viens d'accomplir la quête Citrouilles !
+    - sbc §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] &x&7&5&E&6&C&4&l%player% &fvient d'accomplir la quête &aCitrouilles - Rang 3 &f!
     - money give %player% 1
     Message: ''
     ExtraPermission: ''
@@ -416,7 +416,7 @@ shop:
     - lore1:&f
     - 'lore2:&a» Vous avez déjà accompli cette quête !'
     - amount:1
-    - type:MELON_SLICE
+    - type:MELON_SLCOBBLESTONE
     - enchantment:UNBREAKING#3
     - hideflags:all
     PriceType: NOTHING
@@ -436,10 +436,10 @@ shop:
     - lore4:&f
     - lore5:§6» Cliquez §7pour terminer cette quête.
     - amount:1
-    - type:MELON_SLICE
+    - type:MELON_SLCOBBLESTONE
     PriceType: item
     Price:
-    - - type:MELON_SLICE
+    - - type:MELON_SLCOBBLESTONE
       - enchantment:INFINITY#1
       - hideflags:all
       - amount:256
@@ -447,7 +447,7 @@ shop:
     Reward:
     - bs close %player%
     - lp user %player% permission settemp quest.tier4.melonslice true 30d server=BIG_EVENT
-    - sendmessage %player% §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] §aTu viens d'accomplir la quête Tranches de pastèque !
+    - sbc §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] &x&7&5&E&6&C&4&l%player% &fvient d'accomplir la quête &aTranches de pastèque - Rang 3 &f!
     - money give %player% 1
     Message: ''
     ExtraPermission: ''
@@ -493,7 +493,7 @@ shop:
     Reward:
     - bs close %player%
     - lp user %player% permission settemp quest.tier4.netherwart true 30d server=BIG_EVENT
-    - sendmessage %player% §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] §aTu viens d'accomplir la quête Verrues du nether !
+    - sbc §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] &x&7&5&E&6&C&4&l%player% &fvient d'accomplir la quête &aVerrues du nether - Rang 3 &f!
     - money give %player% 1
     Message: ''
     ExtraPermission: ''

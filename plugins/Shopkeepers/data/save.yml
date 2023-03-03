@@ -276,7 +276,7 @@ data-version: 3|2|3120
       resultItem:
         ==: org.bukkit.inventory.ItemStack
         v: 3120
-        type: SOUL_SAND
+        type: NETHERRACK
         amount: 4
       item1:
         ==: org.bukkit.inventory.ItemStack
@@ -287,6 +287,39 @@ data-version: 3|2|3120
       resultItem:
         ==: org.bukkit.inventory.ItemStack
         v: 3120
+        type: CRIMSON_NYLIUM
+        amount: 2
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BRICK
+        amount: 8
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: WARPED_NYLIUM
+        amount: 2
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BRICK
+        amount: 8
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: SOUL_SAND
+        amount: 4
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BRICK
+        amount: 8
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
         type: GLOWSTONE
         amount: 4
       item1:
@@ -294,7 +327,7 @@ data-version: 3|2|3120
         v: 3120
         type: BRICK
         amount: 8
-    '4':
+    '7':
       resultItem:
         ==: org.bukkit.inventory.ItemStack
         v: 3120
@@ -305,7 +338,7 @@ data-version: 3|2|3120
         v: 3120
         type: BRICK
         amount: 8
-    '5':
+    '8':
       resultItem:
         ==: org.bukkit.inventory.ItemStack
         v: 3120
@@ -316,7 +349,7 @@ data-version: 3|2|3120
         v: 3120
         type: BRICK
         amount: 8
-    '6':
+    '9':
       resultItem:
         ==: org.bukkit.inventory.ItemStack
         v: 3120
@@ -723,6 +756,31 @@ data-version: 3|2|3120
       resultItem:
         ==: org.bukkit.inventory.ItemStack
         v: 3120
+        type: COBBLESTONE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Pierre
+            enchantée"}],"text":""}'
+          enchants:
+            ARROW_INFINITE: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          - HIDE_DESTROYS
+          - HIDE_PLACED_ON
+          - HIDE_POTION_EFFECTS
+          - HIDE_DYE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COBBLESTONE
+        amount: 64
+    '17':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
         type: STONE_BRICKS
         meta:
           ==: ItemMeta
@@ -744,7 +802,7 @@ data-version: 3|2|3120
         v: 3120
         type: STONE_BRICKS
         amount: 64
-    '17':
+    '18':
       resultItem:
         ==: org.bukkit.inventory.ItemStack
         v: 3120
@@ -768,31 +826,6 @@ data-version: 3|2|3120
         ==: org.bukkit.inventory.ItemStack
         v: 3120
         type: CRACKED_STONE_BRICKS
-        amount: 64
-    '18':
-      resultItem:
-        ==: org.bukkit.inventory.ItemStack
-        v: 3120
-        type: ICE
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Glace
-            enchantée"}],"text":""}'
-          enchants:
-            ARROW_INFINITE: 1
-          ItemFlags:
-          - HIDE_ENCHANTS
-          - HIDE_ATTRIBUTES
-          - HIDE_UNBREAKABLE
-          - HIDE_DESTROYS
-          - HIDE_PLACED_ON
-          - HIDE_POTION_EFFECTS
-          - HIDE_DYE
-      item1:
-        ==: org.bukkit.inventory.ItemStack
-        v: 3120
-        type: ICE
         amount: 64
     '19':
       resultItem:

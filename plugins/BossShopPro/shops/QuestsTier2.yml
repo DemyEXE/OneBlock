@@ -40,7 +40,7 @@ shop:
     Reward:
     - bs close %player%
     - lp user %player% permission settemp quest.tier2.gunpowder true 30d server=BIG_EVENT
-    - sendmessage %player% §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] §aTu viens d'accomplir la quête Poudres à canon !
+    - sbc §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] &x&7&5&E&6&C&4&l%player% &fvient d'accomplir la quête &aPoudres à canon - Rang 2 &f!
     - money give %player% 1
     Message: ''
     ExtraPermission: ''
@@ -83,7 +83,7 @@ shop:
     Reward:
     - bs close %player%
     - lp user %player% permission settemp quest.tier2.rottenflesh true 30d server=BIG_EVENT
-    - sendmessage %player% §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] §aTu viens d'accomplir la quête Chairs putréfiées !
+    - sbc §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] &x&7&5&E&6&C&4&l%player% &fvient d'accomplir la quête &aChairs putréfiées - Rang 2 &f!
     - money give %player% 1
     Message: ''
     ExtraPermission: ''
@@ -126,7 +126,7 @@ shop:
     Reward:
     - bs close %player%
     - lp user %player% permission settemp quest.tier2.birchleaves true 30d server=BIG_EVENT
-    - sendmessage %player% §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] §aTu viens d'accomplir la quête Feuilles de bouleau !
+    - sbc §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] &x&7&5&E&6&C&4&l%player% &fvient d'accomplir la quête &aFeuilles de bouleau - Rang 2 &f!
     - money give %player% 1
     Message: ''
     ExtraPermission: ''
@@ -169,7 +169,7 @@ shop:
     Reward:
     - bs close %player%
     - lp user %player% permission settemp quest.tier2.birchlog true 30d server=BIG_EVENT
-    - sendmessage %player% §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] §aTu viens d'accomplir la quête Bûches de bouleau !
+    - sbc §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] &x&7&5&E&6&C&4&l%player% &fvient d'accomplir la quête &aBûches de bouleau - Rang 2 &f!
     - money give %player% 1
     Message: ''
     ExtraPermission: ''
@@ -212,7 +212,7 @@ shop:
     Reward:
     - bs close %player%
     - lp user %player% permission settemp quest.tier2.stone true 30d server=BIG_EVENT
-    - sendmessage %player% §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] §aTu viens d'accomplir la quête Roches !
+    - sbc §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] &x&7&5&E&6&C&4&l%player% &fvient d'accomplir la quête &aRoches - Rang 2 &f!
     - money give %player% 1
     Message: ''
     ExtraPermission: ''
@@ -255,7 +255,7 @@ shop:
     Reward:
     - bs close %player%
     - lp user %player% permission settemp quest.tier2.cobblestone true 30d server=BIG_EVENT
-    - sendmessage %player% §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] §aTu viens d'accomplir la quête Pierres !
+    - sbc §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] &x&7&5&E&6&C&4&l%player% &fvient d'accomplir la quête &aPierres - Rang 2 &f!
     - money give %player% 1
     Message: ''
     ExtraPermission: ''
@@ -298,7 +298,7 @@ shop:
     Reward:
     - bs close %player%
     - lp user %player% permission settemp quest.tier2.bamboo true 30d server=BIG_EVENT
-    - sendmessage %player% §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] §aTu viens d'accomplir la quête Bambous !
+    - sbc §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] &x&7&5&E&6&C&4&l%player% &fvient d'accomplir la quête &aBambous - Rang 2 &f!
     - money give %player% 1
     Message: ''
     ExtraPermission: ''
@@ -341,7 +341,7 @@ shop:
     Reward:
     - bs close %player%
     - lp user %player% permission settemp quest.tier2.melon true 30d server=BIG_EVENT
-    - sendmessage %player% §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] §aTu viens d'accomplir la quête Melons !
+    - sbc §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] &x&7&5&E&6&C&4&l%player% &fvient d'accomplir la quête &aMelons - Rang 2 &f!
     - money give %player% 1
     Message: ''
     ExtraPermission: ''
@@ -384,7 +384,7 @@ shop:
     Reward:
     - bs close %player%
     - lp user %player% permission settemp quest.tier2.carrot true 30d server=BIG_EVENT
-    - sendmessage %player% §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] §aTu viens d'accomplir la quête Carottes !
+    - sbc §f§l[&x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls&f&l] &x&7&5&E&6&C&4&l%player% &fvient d'accomplir la quête &aCarottes - Rang 2 &f!
     - money give %player% 1
     Message: ''
     ExtraPermission: ''

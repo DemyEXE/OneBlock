@@ -11,3 +11,17 @@ Demy___:
   - name:&a&lCarotte enchantée
   - enchantment:infinity#1
   - itemflag:HIDE_ENCHANTS
+_Demy:
+  2023 02-03 at 10:50:04 PM (Thu):
+  - type:MELON
+  - amount:64
+  - durability:0
+  - name:&a&lMelon enchantée
+  - enchantment:infinity#1
+  - itemflag:HIDE_ENCHANTS
+  - itemflag:HIDE_ATTRIBUTES
+  - itemflag:HIDE_UNBREAKABLE
+  - itemflag:HIDE_DESTROYS
+  - itemflag:HIDE_PLACED_ON
+  - itemflag:HIDE_POTION_EFFECTS
+  - itemflag:HIDE_DYE

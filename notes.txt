@@ -8,7 +8,7 @@ Suprême /mcolor &f&k&l|&#9e2330&lS&#ac2e38&lu&#b93841&lp&#c74349&lr&#d44d51&lê
 
 OneBlock : &#a1fff4&lO&#aeecec&ln&#bcdae4&le&#c9c7dc&lB&#d7b5d3&ll&#e4a2cb&lo&#f290c3&lc&#ff7dbb&lk
 ANNONCE : /sbc &f&l[&#8954cc&lA&#8a63c8&lN&#8b72c3&lN&#8c81bf&lO&#8c90bb&lN&#8d9fb6&lC&#8eaeb2&lE&f&l] #8954CC&l%player% &f&lpasse le grade &f&k&l|&#9e2330&lS&#ac2e38&lu&#b93841&lp&#c74349&lr&#d44d51&lê&#e2585a&lm&#ef6262&le&f&k&l|
-
+QUETES : &x&8&9&c&c&4&5&lQ&x&9&0&d&0&6&a&lu&x&9&7&d&4&8&f&lê&x&9&d&d&9&b&5&lt&x&a&4&d&d&d&a&le&x&a&b&e&1&f&f&ls
 
 Moyenne/h blocs : 45000
 

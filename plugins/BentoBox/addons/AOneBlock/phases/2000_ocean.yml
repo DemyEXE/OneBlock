@@ -1,0 +1,29 @@
+'2000':
+  name: Océan
+  firstBlock: PRISMARINE
+  biome: OCEAN
+  blocks:
+    PODZOL: 100
+    COAL_ORE: 100
+    DIAMOND_ORE: 25
+    GOLD_ORE: 100
+    GRASS_BLOCK: 750
+    COBBLESTONE: 350
+    DIRT: 300
+    STONE: 500
+    EMERALD_ORE: 40
+    LAPIS_ORE: 50
+    IRON_ORE: 150
+    CLAY: 200
+    DIRT_PATH: 100
+    GLOWSTONE: 50
+    SAND: 1000
+    CLAY: 750
+    SEA_LANTERN: 100
+    SOUL_SAND: 150
+  mobs:
+    ZOMBIE: 300
+    SPIDER: 300
+    CREEPER: 300
+    SKELETON: 300
+    DROWNED: 600
